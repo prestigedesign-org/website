@@ -322,7 +322,7 @@ function initialCollections() {
 
         collectionsHTML += `  <div class="slider-container">`;
         for (let m = 0; m < collections[i][2][0][5].length; m++) {
-            collectionsHTML += `<div class="gallery-image-wrapper"><img src="${collections[i][2][0][5][m]}" class="slider-item"></div>`;
+            collectionsHTML += `<div class="gallery-image-wrapper"><img loading="lazy" src="${collections[i][2][0][5][m]}" class="slider-item" alt="collection image"></div>`;
         }
         collectionsHTML += `</div>`;
 
@@ -338,7 +338,7 @@ function initialCollections() {
 
         for (let k = 0; k < collections[i][2].length; k++) {
             collectionsHTML += ` <div class="collection-single " onclick="myFunction(event)" >
-                                     <img src="${collections[i][2][k][5][0]}" alt="">
+                                     <img src="${collections[i][2][k][5][0]}" alt="collection image " loading="lazy">
                                      <div></div>
                                      <span class="collection-single-text" >${collections[i][2][k][0]}</span>
                                      </div> `;
@@ -358,7 +358,7 @@ function initialCollections() {
         collectionsHTML += `<div class="slider-color-ways ">`;
         for (let z = 0; z < collections[i][2][0][6].length; z++) {
             collectionsHTML += ` <div class="slider-color-ways-details">`;
-            collectionsHTML += ` <img src="${collections[i][2][0][6][z]}" alt="">
+            collectionsHTML += ` <img src="${collections[i][2][0][6][z]}" loading="lazy" alt="collection image ">
             <span>${collections[i][2][0][7][z]}</span>`;
             collectionsHTML += `</div>`;
         }
@@ -374,7 +374,7 @@ function initialCollections() {
         collectionsHTML += `</div > `;
 
     }
-    console.log(collectionsHTML);
+    // console.log(collectionsHTML);
     collectionsTag.innerHTML += collectionsHTML;
 }
 initialCollections();
@@ -484,7 +484,11 @@ function myFunction(event) {
         const designs = collection[2];
         for (const design of designs) {
             const designName = design[0][0];
+            // console.log(designName + "  < 1 >  " + targetWord);
+
             if (designName === targetWord) {
+                // console.log(designName + "  < 2 >  " + targetWord);
+
                 const rollSize = design[1][0];
                 const repeat = design[2][0];
                 const match = design[3][0];
@@ -518,7 +522,7 @@ function myFunction(event) {
 
     // change image of large slider
     for (let m = 0; m < images.length; m++) {
-        sliderContainerHTML += `<div class="gallery-image-wrapper"><img src="${images[m]}" class="slider-item"></div>`;
+        sliderContainerHTML += `<div class="gallery-image-wrapper"><img loading="lazy" src="${images[m]}" class="slider-item" alt="collection image"></div>`;
     }
     sliderContainer.innerHTML = sliderContainerHTML;
 
@@ -533,7 +537,7 @@ function myFunction(event) {
     for (let m = 0; m < colorways.length; m++) {
         sliderContainerHTML += `
             <div class="slider-color-ways-details">
-            <img src="${colorways[m]}" alt="">
+            <img loading="lazy" src="${colorways[m]}" alt="collection image">
             <span>${colorwayNames[m]}</span>
             </div>`;
     }
