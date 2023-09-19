@@ -943,60 +943,59 @@ img {
   width: 100%;
   color: #1e1e1e;
   margin-bottom: -10px; }
-  .main-contact .get-in-touch {
+  .main-contact .container .get-in-touch {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; }
-    .main-contact .get-in-touch .contact-info {
-      padding: 50px;
+    .main-contact .container .get-in-touch .contact-info {
+      padding: 50px 0px;
       width: 100%;
       text-align: center; }
-      .main-contact .get-in-touch .contact-info .contact-info-contents {
+      .main-contact .container .get-in-touch .contact-info .contact-info-contents {
         width: 100%;
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center; }
-        .main-contact .get-in-touch .contact-info .contact-info-contents .contact-heading {
+        .main-contact .container .get-in-touch .contact-info .contact-info-contents .contact-heading {
           width: 100%; }
-          .main-contact .get-in-touch .contact-info .contact-info-contents .contact-heading .contact-title-info {
+          .main-contact .container .get-in-touch .contact-info .contact-info-contents .contact-heading .contact-title-info {
             padding: 0 20px 0 0; }
-            .main-contact .get-in-touch .contact-info .contact-info-contents .contact-heading .contact-title-info h3 {
+            .main-contact .container .get-in-touch .contact-info .contact-info-contents .contact-heading .contact-title-info h3 {
               font-size: 30px;
               padding: 20px 0; }
-            .main-contact .get-in-touch .contact-info .contact-info-contents .contact-heading .contact-title-info p {
+            .main-contact .container .get-in-touch .contact-info .contact-info-contents .contact-heading .contact-title-info p {
               font-size: 18px; }
-        .main-contact .get-in-touch .contact-info .contact-info-contents i {
+        .main-contact .container .get-in-touch .contact-info .contact-info-contents i {
           font-size: 30px;
           color: #9657A8;
           display: block;
           margin: 10px 0;
           margin-top: 50px; }
-          .main-contact .get-in-touch .contact-info .contact-info-contents i:first-child {
+          .main-contact .container .get-in-touch .contact-info .contact-info-contents i:first-child {
             margin-top: 35px; }
-        .main-contact .get-in-touch .contact-info .contact-info-contents .contact-phones span {
+        .main-contact .container .get-in-touch .contact-info .contact-info-contents .contact-phones span {
           display: block; }
-        .main-contact .get-in-touch .contact-info .contact-info-contents .contact-email span {
+        .main-contact .container .get-in-touch .contact-info .contact-info-contents .contact-email span {
           display: block; }
-        .main-contact .get-in-touch .contact-info .contact-info-contents .contact-email a {
+        .main-contact .container .get-in-touch .contact-info .contact-info-contents .contact-email a {
           font-weight: bold; }
-    .main-contact .get-in-touch .contact-form {
+    .main-contact .container .get-in-touch .contact-form {
       width: 100%;
-      padding: 0 50px;
       display: flex;
       align-items: center;
       justify-content: center;
       padding-top: 25px;
       flex-direction: column; }
-      .main-contact .get-in-touch .contact-form form {
+      .main-contact .container .get-in-touch .contact-form form {
         display: grid;
         grid-gap: 15px;
         grid-template-columns: repeat(2, 1fr);
         padding: 25px;
         width: 100%; }
-        .main-contact .get-in-touch .contact-form form > * {
+        .main-contact .container .get-in-touch .contact-form form > * {
           width: 100%;
           min-height: 60px;
           padding: 20px;
@@ -1005,14 +1004,14 @@ img {
           align-items: center;
           border: 1px solid #1e1e1e34;
           border-radius: 10px; }
-          .main-contact .get-in-touch .contact-form form > *:focus {
+          .main-contact .container .get-in-touch .contact-form form > *:focus {
             border: 1px solid #9657A8; }
-        .main-contact .get-in-touch .contact-form form textarea {
+        .main-contact .container .get-in-touch .contact-form form textarea {
           min-height: 350px;
           grid-column: 1 /-1; }
-        .main-contact .get-in-touch .contact-form form button {
+        .main-contact .container .get-in-touch .contact-form form button {
           margin: 0; }
-        .main-contact .get-in-touch .contact-form form > :last-child {
+        .main-contact .container .get-in-touch .contact-form form > :last-child {
           grid-column: 1/-1; }
   .main-contact .notification {
     position: fixed;
@@ -1590,13 +1589,13 @@ img {
     border: none; }
   .website-language-arabic main .counter .container .counter-contents .single-counter:nth-child(odd) {
     border-left: 2px solid rgba(150, 87, 168, 0.4); }
-  .main-contact .get-in-touch {
+  .main-contact .container .get-in-touch {
     flex-direction: column; }
-    .main-contact .get-in-touch .contact-info {
+    .main-contact .container .get-in-touch .contact-info {
       padding: 50px;
       width: 100%;
       text-align: center; }
-    .main-contact .get-in-touch .contact-form {
+    .main-contact .container .get-in-touch .contact-form {
       width: 100%;
       padding: 0 50px;
       display: flex;
