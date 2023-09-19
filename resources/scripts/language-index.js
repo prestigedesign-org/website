@@ -15,7 +15,7 @@ let languages = {
         aboutUpTitle: `ABOUT US`,
         aboutUpHeading: `Creative Solutions by professional designers`,
         aboutUpDescription: `We are an interior design studio in Muscat, focusing on creating personalized and eco-friendly spaces that align with our clients' unique personalities, values, and artistic preferences, promoting a better way of living.`,
-        aboutUpButton: `CONTINUE READING`,
+        aboutUpButton: `CONTACT US`,
 
         aboutDownDescription: `At Prestige Design, we view design as a fusion of art, psychology, and biology, drawing inspiration from Biomimicry. Our holistic design approach involves deeply understanding our clients' personality, values, and beliefs to express them creatively. We use design elements, lighting, sound, and nature to create spaces that engage all five senses, fostering happier and healthier living and working environments where cherished memories can be made.`,
         aboutDownName: `Majid and Zahra`,
@@ -28,7 +28,7 @@ let languages = {
 
         servicesTitle: `OUR SERVICES`,
         servicesHeading: `We provide more than just quality services`,
-        servicesButton: `READ MORE`,
+        servicesButton: `GO TO COLLECTIONS`,
         servicesOneHeading: `Interior Design Consultation`,
         servicesOneDescription: `Unlock the potential of your space with a personalized consultation.Our experts will assess your needs, style, and vision to create a tailored design plan.`,
         servicesTwoHeading: `Space Planning and Layout`,
@@ -115,7 +115,7 @@ let languages = {
         aboutUpTitle: `معلومات عنا`,
         aboutUpHeading: `حلول إبداعية من مصممين محترفين`,
         aboutUpDescription: `في Navan.one، نحن متحمسون لتحويل المنازل إلى منازل. بخبرة سنوات والتزام بالتميز في التصميم، يقدم فريقنا أحلامك الداخلية بواقعية. تعرَّف على الأشخاص الذين يقفون وراء التصاميم وفلسفتنا.`,
-        aboutUpButton: `استمر في القراءة`,
+        aboutUpButton: "اتصل بنا",
 
         aboutDownDescription: `في Navan.one، نحن متحمسون لتحويل المنازل إلى منازل. بخبرة سنوات والتزام بالتميز في التصميم، يقدم فريقنا أحلامك الداخلية بواقعية. تعرَّف على الأشخاص الذين يقفون وراء التصاميم وفلسفتنا.`,
         aboutDownName: `جون دو`,
@@ -128,7 +128,7 @@ let languages = {
 
         servicesTitle: `خدماتنا`,
         servicesHeading: `نحن نقدم أكثر من مجرد خدمات جودة`,
-        servicesButton: `اقرأ المزيد`,
+        servicesButton: `الذهاب إلى المجموعة `,
         servicesOneHeading: `استشارات تصميم داخلي`,
         servicesOneDescription: `استفد من إمكانيات مساحتك من خلال استشارة شخصية. سيقوم خبراؤنا بتقييم احتياجاتك وأسلوبك ورؤيتك لإنشاء خطة تصميم مخصصة.`,
         servicesTwoHeading: `تخطيط المساحة والتصميم`,
@@ -330,7 +330,7 @@ function laguageSetter() {
             navMenuPortfolioBurger.innerHTML = languages[currentLanguage].navMenuPortfolio;
             navMenuStoreBurger.innerHTML = languages[currentLanguage].navMenuStore;
             navMenuContactBurger.innerHTML = languages[currentLanguage].navMenuContact;
-            navMenuCollectionBurger.innerHTML = languages[currentLanguage].navMenuCollectionBurger;
+            navMenuCollectionBurger.innerHTML = languages[currentLanguage].navMenuCollection;
 
 
             heroHeading.innerHTML = languages[currentLanguage].heroHeading;
