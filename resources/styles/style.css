@@ -1743,9 +1743,10 @@ img {
   .header .hero .container {
     max-width: 70%; }
     .header .hero .container .hero-contents h1 {
-      font-size: 35px; }
+      font-size: 28px;
+      margin-bottom: 10px; }
     .header .hero .container .hero-contents p {
-      padding: 25px 0;
+      padding: 15px 0;
       margin-bottom: 25px; }
   .main .about {
     padding-top: 0px; }
@@ -1777,7 +1778,7 @@ img {
           color: #9657A8;
           padding-top: 50px; }
         .main .about .container .about-contents .about-description h2 {
-          font-size: 30px;
+          font-size: 28px;
           margin: 25px 0; }
         .main .about .container .about-contents .about-description button {
           margin-top: 40px; }
@@ -1802,18 +1803,25 @@ img {
   .main .services .container .services-contents {
     width: 100%;
     flex-direction: column;
-    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
     padding-top: 120px;
     text-align: center; }
     .main .services .container .services-contents .services-title {
       width: 100%;
       margin-bottom: 40px; }
+      .main .services .container .services-contents .services-title h4 {
+        font-size: 28px; }
     .main .services .container .services-contents .services-description {
-      grid-template-columns: repeat(1, 1fr); }
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 0; }
   .main .work {
     padding-top: 50px; }
     .main .work .container .work-contents {
       height: 100%; }
+      .main .work .container .work-contents .work-top h6 {
+        font-size: 28px; }
       .main .work .container .work-contents .work-bottom {
         grid-template-columns: repeat(1, 1fr);
         margin-top: 50px;
@@ -1829,6 +1837,10 @@ img {
           border: none;
           border-top: 2px solid #fff;
           border-bottom: 2px solid #fff; }
+  .main .banner {
+    background-attachment: unset; }
+    .main .banner .banner-contents h6 {
+      font-size: 28px; }
   .main .projects {
     width: 100%; }
     .main .projects .projects-contents .project-bottom {
@@ -1845,6 +1857,8 @@ img {
       justify-content: center; }
       .main .quality .container .quality-contents .quality-images .quality-image-inner .quality-price {
         transform: translate(0%, 0%); }
+    .main .quality .container .quality-contents .quality-description h6 {
+      font-size: 28px; }
   .main .blog .container .blog-contents .post-contents {
     flex-direction: column; }
     .main .blog .container .blog-contents .post-contents .post {
