@@ -238,7 +238,7 @@ function laguageSetter() {
             navMenuPortfolioBurger.innerHTML = languages[currentLanguage].navMenuPortfolio;
             navMenuStoreBurger.innerHTML = languages[currentLanguage].navMenuStore;
             navMenuContactBurger.innerHTML = languages[currentLanguage].navMenuContact;
-            navMenuCollectionBurger.innerHTML = languages[currentLanguage].navMenuCollectionBurger;
+            navMenuCollectionBurger.innerHTML = languages[currentLanguage].navMenuCollection;
 
 
             footerTitle.innerHTML = languages[currentLanguage].footerTitle;
