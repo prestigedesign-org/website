@@ -59,3 +59,75 @@ handleGalleryClick(imageShowNine, galleryImagesNine);
 handleGalleryClick(imageShowTen, galleryImagesTen);
 handleGalleryClick(imageShowEleven, galleryImagesEleven);
 handleGalleryClick(imageShowTwelve, galleryImagesTwelve);
+
+
+
+
+
+
+// filter categories
+
+const office = document.getElementById(`office`);
+const residential = document.getElementById(`residential`);
+const commercial = document.getElementById(`commercial`);
+
+
+const officeCollection = document.querySelectorAll(`.office`);
+const residentialCollection = document.querySelectorAll(`.residential`);
+const commercialCollection = document.querySelectorAll(`.commercial`);
+
+
+officeCollection.forEach(function (e) {
+    e.style.display = 'none';
+})
+
+residentialCollection.forEach(function (e) {
+    e.style.display = 'none';
+})
+
+commercialCollection.forEach(function (e) {
+    e.style.display = 'none';
+})
+
+
+office.addEventListener('click', function () {
+    officeCollection.forEach(function (e) {
+        e.style.display = 'flex';
+    })
+
+    residentialCollection.forEach(function (e) {
+        e.style.display = 'none';
+    })
+
+    commercialCollection.forEach(function (e) {
+        e.style.display = 'none';
+    })
+})
+
+residential.addEventListener('click', function () {
+    officeCollection.forEach(function (e) {
+        e.style.display = 'none';
+    })
+
+    residentialCollection.forEach(function (e) {
+        e.style.display = 'flex';
+    })
+
+    commercialCollection.forEach(function (e) {
+        e.style.display = 'none';
+    })
+})
+
+commercial.addEventListener('click', function () {
+    officeCollection.forEach(function (e) {
+        e.style.display = 'none';
+    })
+
+    residentialCollection.forEach(function (e) {
+        e.style.display = 'none';
+    })
+
+    commercialCollection.forEach(function (e) {
+        e.style.display = 'flex';
+    })
+})

@@ -22,15 +22,23 @@
             <div class="container">
                 <div class="nav-contents">
                     <div class="nav-logo">
-                        <a href="index.html"><img src="resources/images/navan-logo-dark.png"
-                                alt="Prestige Design logo"></a>
+                        <a href="index.html">
+                            <img src="resources/images/navan-logo-dark.png" alt="Prestige Design logo" loading="lazy">
+                        </a>
                     </div>
                     <div class="nav-menu">
                         <ul>
                             <li><a href="index.html" id="nav-menu-home">Home</a></li>
+
                             <li><a href="portfolio.html" id="nav-menu-portfolio" class="selected">Portfolio</a></li>
-                            <li><a href="store.html" id="nav-menu-store">Store</a></li>
-                            <li><a href="collection.html" id="nav-menu-collection">Collection</a></li>
+
+                            <li><a href="about.html" id="nav-menu-about">About</a></li>
+
+
+                            <li><a href="services.html" id="nav-menu-store">Services</a></li>
+
+                            <li><a href="shop.html" id="nav-menu-collection">Shop</a></li>
+
                             <li><a href="contact.html" id="nav-menu-contact">Contact</a></li>
                         </ul>
                     </div>
@@ -40,9 +48,9 @@
                             <span id="ar-language">AR</span>
                         </div>
                         <!-- <div class="theme-mode">
-                            <i class="fa fa-moon"></i>
-                            <i class="fa fa-sun"></i>
-                        </div> -->
+                                <i class="fa fa-moon"></i>
+                                <i class="fa fa-sun"></i>
+                            </div> -->
                         <div class="nav-burger-menu" id="nav-burger-menu">
                             <i class="fa fa-bars"></i>
                             <div class="burger-menu">
@@ -50,11 +58,13 @@
                                 <ul>
                                     <li><a href="index.html" id="nav-menu-home-burger">Home</a></li>
                                     <li><a href="portfolio.html" id="nav-menu-portfolio-burger"
-                                            class="selected">Portfolio</a></li>
-                                    <li><a href="store.html" id="nav-menu-store-burger">Store</a></li>
-                                    <li><a href="collection.html" id="nav-menu-collection-burger">Collection</a></li>
-                                    <li><a href="contact.html" id="nav-menu-contact-burger">Contact</a>
+                                            class="selected">Portfolio</a>
+
+                                    <li><a href="about.html" id="nav-menu-about-burger">About</a>
                                     </li>
+                                    <li><a href="services.html" id="nav-menu-store-burger">Services</a></li>
+                                    <li><a href="shop.html" id="nav-menu-collection-burger">Shop</a></li>
+                                    <li><a href="contact.html" id="nav-menu-contact-burger">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -77,10 +87,23 @@
     <main class="main-portfolio" id="main-portfolio">
         <div class="portfolio">
             <div class="container">
+                <!-- filter -->
+                <div class="collection-filter">
+                    <div class="offices portfolio-filter" id="office">
+                        <h3>Office</h3>
+                    </div>
+                    <div class="residentials portfolio-filter" id="residential">
+                        <h3>Residential</h3>
+
+                    </div>
+                    <div class="commercials portfolio-filter" id="commercial">
+                        <h3>Commercial</h3>
+                    </div>
+                </div>
                 <div class="portfolio-contents">
                     <div class="project">
                         <!-- single project -->
-                        <div class="single-project single-project-one">
+                        <div class="single-project single-project-one commercial ">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-photo-studio/photo-studio-3.jpg"
@@ -119,7 +142,7 @@
                             </div>
                         </div>
                         <!-- single project -->
-                        <div class="single-project single-project-two">
+                        <div class="single-project single-project-two commercial">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-al-madar/al-madar-2.jpg"
@@ -155,7 +178,7 @@
                             </div>
                         </div>
                         <!-- single project -->
-                        <div class="single-project single-project-three">
+                        <div class="single-project single-project-three commercial">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy"
@@ -210,7 +233,7 @@
                             </div>
                         </div>
                         <!-- single project -->
-                        <div class="single-project single-project-four">
+                        <div class="single-project single-project-four commercial">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy"
@@ -250,11 +273,8 @@
                                         details</span></a>
                             </div>
                         </div>
-
-
-
                         <!-- single project -->
-                        <div class="single-project single-project-five">
+                        <div class="single-project single-project-five residential">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-living-room/living-room-1.jpg"
@@ -294,9 +314,8 @@
                                         details</span></a>
                             </div>
                         </div>
-
                         <!-- single project -->
-                        <div class="single-project single-project-six">
+                        <div class="single-project single-project-six office">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy"
@@ -343,9 +362,8 @@
                                         details</span></a>
                             </div>
                         </div>
-
                         <!-- single project -->
-                        <div class="single-project single-project-seven">
+                        <div class="single-project single-project-seven office">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-office-muzon/muzon-2.jpg"
@@ -383,9 +401,8 @@
                                         details</span></a>
                             </div>
                         </div>
-
                         <!-- single project -->
-                        <div class="single-project single-project-eight">
+                        <div class="single-project single-project-eight commercial">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-perfume/perfume-13.jpg"
@@ -441,9 +458,8 @@
                                         details</span></a>
                             </div>
                         </div>
-
                         <!-- single project -->
-                        <div class="single-project single-project-nine">
+                        <div class="single-project single-project-nine commercial">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-skil-secret-2/skin-secret-3.jpg"
@@ -477,9 +493,8 @@
                                         details</span></a>
                             </div>
                         </div>
-
                         <!-- single project -->
-                        <div class="single-project single-project-ten">
+                        <div class="single-project single-project-ten commercial">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-skin-secret-1/skin-secret-1.jpg"
@@ -514,7 +529,7 @@
                             </div>
                         </div>
                         <!-- single project -->
-                        <div class="single-project single-project-eleven">
+                        <div class="single-project single-project-eleven residential">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-tv-area-khudh/tv-area-1.jpg"
@@ -551,9 +566,8 @@
                                         details</span></a>
                             </div>
                         </div>
-
                         <!-- single project -->
-                        <div class="single-project single-project-twelve">
+                        <div class="single-project single-project-twelve residential">
                             <div class="single-project-image">
                                 <div class="gallery-show">
                                     <img loading="lazy" src="resources/images/project-villa/villa-2.jpeg"
@@ -594,8 +608,6 @@
                                         details</span></a>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -634,20 +646,30 @@
                         <div class="logo">
                             <img loading="lazy" src="resources/images/navan-logo-light.png" alt="Navan logo">
                         </div>
-                        <a dir="ltr" href="tel:+96891215078">
-                            <i class="fa fa fa-phone i-arrow"></i> +968 9121 5078
-                        </a>
                         <a dir="ltr" href="tel:+96891245348">
                             <i class="fa fa fa-phone i-arrow"></i> +968 9124 5348
                         </a>
+                        <a dir="ltr" href="tel:+96891215078">
+                            <i class="fa fa fa-phone i-arrow"></i> +968 9121 5078
+                        </a>
+
 
                         <div class="social-media">
-                            <i class="fab fa-instagram"></i>
-                            <i class="fab fa-youtube"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-telegram"></i><i class="fab fa-whatsapp"></i>
+                            <a href="  https://www.instagram.com/oman.prestigedesign">
+                                <i class="fab fa-instagram"></i>
+                            </a>
 
+                            <a href="https://www.youtube.com/@omanfact9331">
+                                <i class="fab fa-youtube"></i>
+                            </a>
 
+                            <a href="https://t.me/+96891245348">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+
+                            <a href="https://wa.me/+96891245348">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
                         </div>
                     </div>
 
@@ -661,7 +683,9 @@
 
         </div>
     </footer>
-
+    <div class="whatsapp">
+        <a href="https://wa.me/+96891245348"><i class="fab fa-whatsapp"></i></a>
+    </div>
 
 
     <!-- scripts -->

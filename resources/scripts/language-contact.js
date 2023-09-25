@@ -4,9 +4,10 @@ let languages = {
     english: {
         navMenuHome: `Home`,
         navMenuPortfolio: `Portfolio`,
-        navMenuStore: `Store`,
+        navMenuAbout: `about`,
+        navMenuStore: `Services`,
         navMenuContact: `Contact`,
-        navMenuCollection: `Collection`,
+        navMenuCollection: `Shop`,
 
 
         footerTitle: `YOU DREAM IT, WE DESIGN IT`,
@@ -31,10 +32,11 @@ let languages = {
     },
     arabic: {
         navMenuHome: `الرئيسية`,
-        navMenuPortfolio: `مثال العمل`,
-        navMenuStore: `المتجر`,
+        navMenuPortfolio: `المعرض`,
+        navMenuAbout: `معلومات عنا`,
+        navMenuStore: `الخدمات`,
         navMenuContact: `اتصل بنا`,
-        navMenuCollection: `مجموعة`,
+        navMenuCollection: `المتجر`,
 
 
 
@@ -70,6 +72,7 @@ const navMenuHome = document.getElementById(`nav-menu-home`);
 const navMenuStore = document.getElementById(`nav-menu-store`);
 const navMenuContact = document.getElementById(`nav-menu-contact`);
 const navMenuCollection = document.getElementById(`nav-menu-collection`);
+const navMenuAbout = document.getElementById(`nav-menu-about`);
 
 
 const navMenuPortfolioBurger = document.getElementById(`nav-menu-portfolio-burger`);
@@ -124,6 +127,8 @@ function laguageSetter() {
             navMenuStore.innerHTML = languages[currentLanguage].navMenuStore;
             navMenuContact.innerHTML = languages[currentLanguage].navMenuContact;
             navMenuCollection.innerHTML = languages[currentLanguage].navMenuCollection;
+            navMenuAbout.innerHTML = languages[currentLanguage].navMenuAbout;
+
 
             navMenuHomeBurger.innerHTML = languages[currentLanguage].navMenuHome;
             navMenuPortfolioBurger.innerHTML = languages[currentLanguage].navMenuPortfolio;
