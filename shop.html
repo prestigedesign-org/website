@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Discover the art of interior design with Prestige Design. Explore our stunning portfolio, where creativity meets functionality. Let us transform your home into a masterpiece. Contact us today for personalized design consultations.">
-    <title>Prestige Design | Contact</title>
+    <title>Prestige Design | Collections</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -37,9 +37,9 @@
 
                             <li><a href="services.html" id="nav-menu-store">Services</a></li>
 
-                            <li><a href="shop.html" id="nav-menu-collection">Shop</a></li>
+                            <li><a href="shop.html" id="nav-menu-collection" class="selected">Shop</a></li>
 
-                            <li><a href="contact.html" id="nav-menu-contact" class="selected">Contact</a></li>
+                            <li><a href="contact.html" id="nav-menu-contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="nav-icons">
@@ -48,9 +48,9 @@
                             <span id="ar-language">AR</span>
                         </div>
                         <!-- <div class="theme-mode">
-                                    <i class="fa fa-moon"></i>
-                                    <i class="fa fa-sun"></i>
-                                </div> -->
+                                                <i class="fa fa-moon"></i>
+                                                <i class="fa fa-sun"></i>
+                                            </div> -->
                         <div class="nav-burger-menu" id="nav-burger-menu">
                             <i class="fa fa-bars"></i>
                             <div class="burger-menu">
@@ -62,8 +62,9 @@
                                     <li><a href="about.html" id="nav-menu-about-burger">About</a>
                                     </li>
                                     <li><a href="services.html" id="nav-menu-store-burger">Services</a></li>
-                                    <li><a href="shop.html" id="nav-menu-collection-burger">Shop</a></li>
-                                    <li><a href="contact.html" id="nav-menu-contact-burger" class="selected">Contact</a>
+                                    <li><a href="shop.html" id="nav-menu-collection-burger" class="selected">Shop</a>
+                                    </li>
+                                    <li><a href="contact.html" id="nav-menu-contact-burger">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -77,98 +78,79 @@
         <div class="hero">
             <div class="container">
                 <div class="hero-contents dark-mode-color">
-                    <h1 id="hero-heading-contact">Contact</h1>
+                    <h1 id="hero-heading-collection">Collection</h1>
                 </div>
             </div>
         </div>
     </header>
 
     <!-- main -->
-    <main class="main-contact" id="main-contact">
-
-        <div class="container">
-            <div class="get-in-touch">
-                <div class="contact-info">
-                    <div class="contact-info-contents">
-                        <div class="contact-heading">
-                            <div class="contact-title-info">
-                                <span id="get-contact-title">OUR CONTACTS</span>
-                                <h3 id="get-contact-heading">Get in touch with us</h3>
-                                <p class="contact-info-description" id="get-contact-description">
-                                    Get in touch to discuss your employee wellbeing needs today. Please give us a call,
-                                    drop
-                                    us
-                                    an
-                                    email
-                                    or fill out the
-                                    contact form and we’ll get back to you.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact-address">
-                            <i class="fa fa-location"></i>
-                            <span id="get-address-heading">Headquarter</span>
-                            <address id="get-address-address">LGF41, Al Araimi BLVD Mall,
-                                Muscat, Sultanate of Oman
-                            </address>
-                        </div>
-                        <div class="contact-phones">
-                            <i class="fa fa-phone"></i>
-                            <span id="get-contact-phone-title">Phone Number
-                            </span>
-                            <a dir="ltr" dir="ltr" href="tel:+96891245348">
-                                +968-91245348
-                                <br>
-                            </a>
-                            <a dir="ltr" dir="ltr" href="tel:+96891215078">+968-91215078
-
-                            </a>
-
-                        </div>
-                        <div class="contact-email">
-                            <i class="fa fa-envelope"></i>
-                            <span id="get-email-title">Email us</span>
-                            <a href="mailto:info@prestigedesign.org">info@prestigedesign.org</a>
-                        </div>
-                    </div>
+    <main class="main-collection" id="main-collection">
+        <div class="container" id="collections-container">
+            <!-- filter -->
+            <div class="collection-filter">
+                <div class="wallpaper shop-filter" id="wallpapers">
+                    <h3>wallpapers</h3>
+                    <h5>category</h5>
                 </div>
-                <div class="contact-form">
-                    <form id="contact-form"
-                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse">
+                <div class="decorative shop-filter" id="decoratives">
+                    <h3>decoratives</h3>
+                    <h5>category</h5>
 
-                        <input type="text" name="entry.1419853720" placeholder="Subject" class="form-subject"
-                            autocomplete="off" required id="form-subject">
-
-                        <input type="text" name="entry.812101243" placeholder="Name" class="form-name"
-                            autocomplete="off" required id="form-name">
-
-                        <input type="email" name="entry.898897978" placeholder="Email" class="form-email"
-                            autocomplete="off" required id="form-email">
-
-                        <input type="number" name="entry.108053488" placeholder="Phone number" class="form-number"
-                            autocomplete="off" required id="form-phone">
-
-                        <input type="text" name="entry.899080279" placeholder="Address" class="form-address"
-                            autocomplete="off" required id="form-address">
-
-
-                        <textarea name="entry.1285101246" placeholder="Message" required id="form-message"></textarea>
-                        <button type="submit" class="button button-dark" id="form-submit">Submit Form</button>
-                    </form>
+                </div>
+                <div class="posters shop-filter" id="posters">
+                    <h3>posters</h3>
+                    <h5>category</h5>
                 </div>
             </div>
-            <div class="notification" id="notification">
-                Your work has been saved
+            <!-- wallpaper collection -->
+            <div class="collections" id="wallpaper-collection"></div>
+
+            <!-- decorative collection -->
+            <div class="collections" id="decorative-collection">
+                <h2>decorative items</h2>
             </div>
 
+            <!-- posters collection -->
+            <div class="collections" id="poster-collection">
+                <h2>posters items</h2>
+            </div>
         </div>
+        <div class="order-now-popup" id="contact-form-wrapper">
+            <div class="contact-form">
+                <span>Please fill below form, we will call you as soon as possible</span>
+                <form id="contact-form"
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse">
 
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.7497763822134!2d58.4922244755076!3d23.61330529402542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91f8edae20777d%3A0x5f5436748707f36!2sAl%20Araimi%20Complex!5e0!3m2!1sen!2som!4v1694812082413!5m2!1sen!2som"
-            width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <input type="text" name="entry.1419853720" placeholder="Subject" class="form-subject"
+                        autocomplete="off" required id="form-subject">
 
+                    <input type="text" name="entry.812101243" placeholder="Name" class="form-name" autocomplete="off"
+                        required id="form-name">
+
+                    <input type="email" name="entry.898897978" placeholder="Email" class="form-email" autocomplete="off"
+                        required id="form-email">
+
+                    <input type="number" name="entry.108053488" placeholder="Phone number" class="form-number"
+                        autocomplete="off" required id="form-phone">
+
+                    <input type="text" name="entry.899080279" placeholder="Address" class="form-address"
+                        autocomplete="off" required id="form-address">
+
+
+                    <textarea name="entry.1285101246" placeholder="Message" required id="form-message"></textarea>
+                    <button type="submit" class="button button-dark" id="form-submit">Submit Form</button>
+                </form>
+                <div class="fa fa-times" id="modal-form-close">
+
+                </div>
+            </div>
+        </div>
+        <div class="notification" id="notification">
+            Your work has been saved
+        </div>
     </main>
+
 
     <!-- footer -->
     <footer class="footer" id="footer">
@@ -180,7 +162,7 @@
                     <span class="section-titles" id="footer-title">you dream it, we design it</span>
                     <h2 id="footer-heading">We can build you the home of your dreams </h2>
                     <button class="button button-dark ">
-                        <a href="tel:+12137720805" id="footer-button">
+                        <a href="tel:+96891245348" id="footer-button">
                             <!-- <i class="fa fa fa-phone i-arrow"></i>  -->schedule a meeting
                         </a>
                     </button>
@@ -196,13 +178,13 @@
                         <div class="logo">
                             <img src="resources/images/navan-logo-light.png" alt="Navan logo">
                         </div>
-                        <a href="tel:+96891245348">
+                        <a dir="ltr" href="tel:+96891245348">
                             <i class="fa fa fa-phone i-arrow"></i> +968 9124 5348
                         </a>
-                        <a href="tel:+96891215078">
+
+                        <a dir="ltr" href="tel:+96891215078">
                             <i class="fa fa fa-phone i-arrow"></i> +968 9121 5078
                         </a>
-
 
                         <div class="social-media">
                             <a href="  https://www.instagram.com/oman.prestigedesign">
@@ -239,11 +221,10 @@
         <a href="https://wa.me/+96891245348"><i class="fab fa-whatsapp"></i></a>
     </div>
 
-    <!-- scripts -->
-    <script src="resources/scripts/language-contact.js"></script>
+    <script src="resources/scripts/language-shop.js"></script>
     <script src="resources/scripts/burger-menu.js"></script>
-    <script src="resources/scripts/contact-form.js"></script>
-
+    <script src="resources/scripts/shop.js"></script>
+    <script src="resources/scripts/shop-form.js"></script>
 </body>
 
 </html>

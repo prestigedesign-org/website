@@ -4,9 +4,12 @@ let languages = {
     english: {
         navMenuHome: `Home`,
         navMenuPortfolio: `Portfolio`,
-        navMenuStore: `Store`,
+        navMenuAbout: `about`,
+        navMenuStore: `Services`,
         navMenuContact: `Contact`,
-        navMenuCollection: `Collection`,
+        navMenuCollection: `Shop`,
+
+
 
         footerTitle: `YOU DREAM IT, WE DESIGN IT`,
         footerHeading: `We can build you the home of your dreams`,
@@ -15,6 +18,10 @@ let languages = {
         projectCta: 'Reserve Your Dream Space Today!',
         heroHeadingPortfolio: 'Portfolio',
 
+
+        portfolioCategoryOne: `Office`,
+        portfolioCategoryTwo: `Residential`,
+        portfolioCategoryThree: `Commercial`,
 
         projectOneTitle: 'Photo studio | in focus ',
         projectOneLocation: 'Oman | Muscat | South hail',
@@ -72,17 +79,21 @@ let languages = {
     },
     arabic: {
         navMenuHome: `الرئيسية`,
-        navMenuPortfolio: `مثال العمل`,
-        navMenuStore: `المتجر`,
+        navMenuPortfolio: `المعرض`,
+        navMenuAbout: `معلومات عنا`,
+        navMenuStore: `الخدمات`,
         navMenuContact: `اتصل بنا`,
-        navMenuCollection: `مجموعة`,
-
-
-
+        navMenuCollection: `المتجر`,
 
         footerTitle: `حلمت به، نحن نصممه`,
         footerHeading: `يمكننا بناء منزل أحلامك`,
         footerButton: `جدولة اجتماع`,
+
+
+        portfolioCategoryOne: `مكتب`,
+        portfolioCategoryTwo: `سكني`,
+        portfolioCategoryThree: `تجاري`,
+
 
         projectCta: 'احجز مساحتك الحلم اليوم!',
         heroHeadingPortfolio: 'معرض الأعمال',
@@ -144,7 +155,7 @@ const navMenuHome = document.getElementById(`nav-menu-home`);
 const navMenuStore = document.getElementById(`nav-menu-store`);
 const navMenuContact = document.getElementById(`nav-menu-contact`);
 const navMenuCollection = document.getElementById(`nav-menu-collection`);
-
+const navMenuAbout = document.getElementById(`nav-menu-about`);
 
 const navMenuPortfolioBurger = document.getElementById(`nav-menu-portfolio-burger`);
 const navMenuHomeBurger = document.getElementById(`nav-menu-home-burger`);
@@ -160,7 +171,13 @@ const footerButton = document.getElementById(`footer-button`);
 
 
 
-const projectCta = document.querySelectorAll(`.project-cta`);
+const projectCta = document.querySelectorAll(`.product-cta`);
+
+const categoryOne = document.getElementById(`office`);
+const categoryTwo = document.getElementById(`residential`);
+const categoryThree = document.getElementById(`commercial`);
+
+
 const heroHeadingPortfolio = document.getElementById(`hero-heading-portfolio`);
 const projectOneTitle = document.getElementById(`project-one-title`);
 const projectOneLocation = document.getElementById(`project-one-location`);
@@ -233,12 +250,20 @@ function laguageSetter() {
             navMenuStore.innerHTML = languages[currentLanguage].navMenuStore;
             navMenuContact.innerHTML = languages[currentLanguage].navMenuContact;
             navMenuCollection.innerHTML = languages[currentLanguage].navMenuCollection;
+            navMenuAbout.innerHTML = languages[currentLanguage].navMenuAbout;
+
 
             navMenuHomeBurger.innerHTML = languages[currentLanguage].navMenuHome;
             navMenuPortfolioBurger.innerHTML = languages[currentLanguage].navMenuPortfolio;
             navMenuStoreBurger.innerHTML = languages[currentLanguage].navMenuStore;
             navMenuContactBurger.innerHTML = languages[currentLanguage].navMenuContact;
             navMenuCollectionBurger.innerHTML = languages[currentLanguage].navMenuCollection;
+
+
+            categoryOne.innerHTML = languages[currentLanguage].portfolioCategoryOne
+            categoryTwo.innerHTML = languages[currentLanguage].portfolioCategoryTwo;
+            categoryThree.innerHTML = languages[currentLanguage].portfolioCategoryThree;
+
 
 
             footerTitle.innerHTML = languages[currentLanguage].footerTitle;
