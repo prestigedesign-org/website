@@ -4,14 +4,15 @@ let languages = {
     english: {
         navMenuHome: `Home`,
         navMenuPortfolio: `Portfolio`,
-        navMenuAbout: `about`,
+        navMenuAbout: `About`,
         navMenuStore: `Services`,
         navMenuContact: `Contact`,
         navMenuCollection: `Shop`,
 
         sloganOne: `Prestige Design`,
-        sloganTwo: `Services`,
-        sloganThree: `Online Shop`,
+        sloganTwo: `SERVICES`,
+        sloganThree: `ONLINE SHOP`,
+        sloganFour: `PORTFOLIO`,
 
 
     },
@@ -26,8 +27,8 @@ let languages = {
 
         sloganOne: `تصميم الهيبة`,
         sloganTwo: `الخدمات`,
-        sloganThree: `المتجر الإلكتروني`
-
+        sloganThree: `المتجر الإلكتروني`,
+        sloganFour: `المعرض `,
     }
 }
 
@@ -51,6 +52,7 @@ const navMenuCollectionBurger = document.getElementById(`nav-menu-collection-bur
 const sloganOne = document.getElementById(`slogan-one`);
 const sloganTwo = document.getElementById(`slogan-two`);
 const sloganThree = document.getElementById(`slogan-three`);
+const sloganFour = document.getElementById(`slogan-four`);
 
 
 const languageToggeler = document.getElementById(`language-toggeler`);
@@ -88,6 +90,7 @@ function laguageSetter() {
             sloganOne.innerHTML = languages[currentLanguage].sloganOne;
             sloganTwo.innerHTML = languages[currentLanguage].sloganTwo;
             sloganThree.innerHTML = languages[currentLanguage].sloganThree;
+            sloganFour.innerHTML = languages[currentLanguage].sloganFour;
 
         }
     }

@@ -7,7 +7,7 @@
 
 body {
   width: 100%;
-  font-family: poppins-regular; }
+  font-family: 'Times New Roman', Times, serif; }
 
 .body .secound-lang {
   direction: rtl;
@@ -40,12 +40,12 @@ li {
 .website-language-english {
   direction: ltr;
   text-align: left;
-  font-family: poppins-regular; }
+  font-family: 'Times New Roman', Times, serif; }
   .website-language-english input,
   .website-language-english textarea,
   .website-language-english button a,
   .website-language-english button {
-    font-family: poppins-regular; }
+    font-family: 'Times New Roman', Times, serif; }
 
 img {
   transition: transform ease-in-out 0.3s; }
@@ -378,7 +378,7 @@ img {
           .nav .container .nav-contents .nav-icons i:hover {
             color: #4a707a; }
         .nav .container .nav-contents .nav-icons .languages {
-          display: flex;
+          display: none;
           align-items: center;
           justify-content: center;
           color: #ddddda;
@@ -939,7 +939,7 @@ img {
     z-index: -100;
     height: calc(100vh - 87.84px);
     overflow: hidden;
-    font-family: poppins-regular; }
+    font-family: 'Times New Roman', Times, serif; }
   .header-index .slider .background {
     position: absolute;
     top: 0;

@@ -4,7 +4,7 @@ let languages = {
     english: {
         navMenuHome: `Home`,
         navMenuPortfolio: `Portfolio`,
-        navMenuAbout: `about`,
+        navMenuAbout: `About`,
         navMenuStore: `Services`,
         navMenuContact: `Contact`,
         navMenuCollection: `Shop`,
