@@ -225,11 +225,12 @@ img {
   font-size: 40px;
   z-index: 500;
   color: #94b0b7;
-  transition: 0.3s; }
+  transition: 1s; }
 
 .whatsapp:hover i {
   color: yellowgreen;
-  opacity: 1; }
+  opacity: 1;
+  transform: rotatey(360deg) scale(1.5); }
 
 .header .nav .container .nav-contents .nav-icons .nav-burger-menu .burger-menu,
 .header-index .nav .container .nav-contents .nav-icons .nav-burger-menu .burger-menu,
@@ -1444,7 +1445,7 @@ img {
           color: #ddddda;
           font-size: 20px;
           border-radius: 25px;
-          font-size: 20px;
+          font-size: 25px;
           cursor: pointer; }
         .main-portfolio .portfolio .container .collection-filter .offices {
           background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-1.jpeg);
@@ -2392,6 +2393,8 @@ img {
         max-height: 60px;
         min-width: 100px;
         max-width: 110px; }
+  .main-portfolio .portfolio .container .collection-filter {
+    grid-template-columns: repeat(1, 1fr); }
   .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-image {
     min-width: 100%;
     display: flex;
@@ -2421,6 +2424,8 @@ img {
         max-height: 60px;
         min-width: 100px;
         max-width: 110px; }
+  .main-collection .container .collection-filter {
+    grid-template-columns: repeat(1, 1fr); }
   .main-collection .container .collections .collection-contents .collection .collection-heading {
     width: 100%; }
     .main-collection .container .collections .collection-contents .collection .collection-heading .collection-info {

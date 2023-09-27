@@ -564,7 +564,7 @@ function myFunction(event) {
 
 
 // filter categories
-wallpaperCollection.style.display = 'none';
+wallpaperCollection.style.display = 'flex';
 decorativeCollection.style.display = 'none';
 posterCollection.style.display = 'none';
 

@@ -14,12 +14,50 @@ let languages = {
         servicesTitle: `OUR SERVICES`,
         servicesHeading: `We provide more than just quality services`,
         servicesButton: `GO TO COLLECTIONS`,
-        servicesOneHeading: `Interior Design Consultation`,
-        servicesOneDescription: `Unlock the potential of your space with a personalized consultation.Our experts will assess your needs, style, and vision to create a tailored design plan.`,
-        servicesTwoHeading: `Space Planning and Layout`,
-        servicesTwoDescription: `Maximize functionality and aesthetics with our space planning expertise.We'll optimize room layouts and flow for a harmonious living experience.`,
-        servicesThreeHeading: `Custom Furnishings and Décor`,
-        servicesThreeDescription: `Elevate your space with bespoke furniture and décor.Our custom creations add unique charm and personality to every room.`,
+
+        servicesOneHeading: `Commercial design and fit out`,
+        servicesOneDescription: `<strong>Offices</strong> Your office is where you conduct
+                                business negotiations and sign important contracts.
+                                Effective and creative design to increase your business efficiency makes it easy for you
+                                to go on.
+                                Designing your office with us will create a masterpiece that will impress your business
+                                partners.
+                                Do not miss the opportunity to change your business efficiency, so contact us now.
+                                <br>
+                                <strong>Shops</strong> Transform Your Retail and Showroom with our Expert Designing and
+                                Furniture Solutions, elevate your space and
+                                captivate customers with our innovative designs tailored to your unique needs.
+                                Our team of experienced professionals will work closely with you to create a showroom
+                                that combines style,
+                                functionality, and seamless customer experience.
+                                From elegant displays to ergonomic furniture, we offer comprehensive solutions that
+                                enhance your brand image and boost
+                                sales. Don’t miss this opportunity! Fill out the form on our website now to take your
+                                showroom to the next level.
+                                Let’s create a stunning retail space together!`,
+
+        servicesTwoHeading: `Residencial design and fit out
+                                    Interior`,
+        servicesTwoDescription: `design is a harmonious blend of artistry and scientific
+                                principles, aimed at elevating the interior spaces of a
+                                structure. Interior design and interior decoration primarily revolve around optimizing
+                                the aesthetics and functionality
+                                of the Interior design to enhance our overall experience within those spaces. By
+                                skilfully crafting effective Interior
+                                design and interior decoration, we create environments that provide comfort in homes.`,
+
+        servicesThreeHeading: `Furnishing Consultation`,
+        servicesThreeDescription: `Professional budgeting according to your priorities to
+                                furnish your office or home is the most important step in
+                                furnishing. Our designers, with years of experience in this matter, provide you with the
+                                best and most specialized
+                                services from consultation to implementation.
+                                The satisfaction of our customers at the end of the projects carried out over the years
+                                reminds us that the project
+                                furnishing management by us will not only cost you more than what you have planned, but
+                                also professional and effective
+                                arrangement with the most up-to-date The science of interior design will captivate you
+                                in the end.`,
 
         workTitle: `HOW WE WORK`,
         workHeading: `3 Easy steps to get interior design`,
@@ -53,12 +91,18 @@ let languages = {
         servicesTitle: `خدماتنا`,
         servicesHeading: `نحن نقدم أكثر من مجرد خدمات جودة`,
         servicesButton: `الذهاب إلى المجموعة `,
-        servicesOneHeading: `استشارات تصميم داخلي`,
-        servicesOneDescription: `استفد من إمكانيات مساحتك من خلال استشارة شخصية. سيقوم خبراؤنا بتقييم احتياجاتك وأسلوبك ورؤيتك لإنشاء خطة تصميم مخصصة.`,
-        servicesTwoHeading: `تخطيط المساحة والتصميم`,
-        servicesTwoDescription: `استفد من تخطيط المساحة والتصميم لزيادة الوظائف والجمال. سنقوم بتحسين تخطيط الغرف وتدفقها لتجربة سكنية متناغمة.`,
-        servicesThreeHeading: `الأثاث المخصص والديكور`,
-        servicesThreeDescription: `ارفع مساحتك مع الأثاث والديكور المخصص. إبداعاتنا المخصصة تضيف سحرًا وشخصية فريدة إلى كل غرفة.`,
+
+
+        servicesOneHeading: `تصميم وتجهيز تجاري`,
+        servicesOneDescription: `<strong>المكاتب</strong> مكتبك هو المكان الذي تجري فيه مفاوضات الأعمال وتوقع العقود الهامة. التصميم الفعّال والمبتكر لزيادة كفاءة أعمالك يجعله سهلًا بالنسبة لك للمضي قدمًا. تصميم مكتبك معنا سيخلق تحفة فنية ستبهر شركائك التجاريين. لا تفوت الفرصة لزيادة كفاءة أعمالك، اتصل بنا الآن.
+                                <br>
+                                <strong>المتاجر</strong> قم بتحويل متجرك وصالتك برياضة مع حلول التصميم والأثاث الخاصة بنا، وقم برفع مستوى مساحتك وجذب العملاء بتصاميمنا المبتكرة المصممة حسب احتياجاتك الفريدة. سيعمل فريقنا من المحترفين ذوي الخبرة بشكل وثيق معك لإنشاء صالة عرض تجمع بين الأناقة والوظائف وتجربة عملاء سلسة. من العروض الأنيقة إلى الأثاث الانسيابي، نقدم حلاً شاملاً يعزز صورتك التجارية ويزيد من المبيعات. لا تفوت هذه الفرصة! املأ النموذج على موقعنا الإلكتروني الآن لرفع صالتك إلى المستوى التالي. دعونا نخلق مساحة بيع رائعة معًا!`,
+
+        servicesTwoHeading: `تصميم وتجهيز داخلي للمنازل`,
+        servicesTwoDescription: `التصميم الداخلي هو مزيج متناغم من الفن والمبادئ العلمية، يهدف إلى رفع مستوى المساحات الداخلية للمبنى.يتعامل التصميم الداخلي وتزيين الديكور الداخلي في الأساس مع تحسين الجماليات والوظائف لتحسين تجربتنا العامة داخل تلك الأماكن.من خلال صياغة تصميم داخلي وتزيين داخلي فعّالين ببراعة، نقوم بإنشاء بيئات توفر الراحة في المنازل.`,
+
+        servicesThreeHeading: `استشارات التأثيث`,
+        servicesThreeDescription: `تخصيص الميزانية المهنية وفقًا لأولوياتك لتأثيث مكتبك أو منزلك هو الخطوة الأهم في تأثيثه.مصممونا، بخبرة سنوات في هذا الشأن، يقدمون لك أفضل وأخصص الخدمات من الاستشارة حتى التنفيذ.رضا عملائنا في نهاية المشاريع التي تمت على مر السنوات يذكرنا بأن إدارة تأثيث المشروع من قبلنا لن تكلفك أكثر مما كنت قد خططت له، بل ستكون أيضًا ترتيبًا احترافيًا وفعّالًا بأحدث علوم التصميم الداخلي ستأسرك في النهاية.`,
 
 
         workTitle: `كيف نعمل`,
