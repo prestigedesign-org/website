@@ -77,9 +77,9 @@ const residentialCollection = document.querySelectorAll(`.residential`);
 const commercialCollection = document.querySelectorAll(`.commercial`);
 
 
-officeCollection.forEach(function (e) {
-    e.style.display = 'none';
-})
+// officeCollection.forEach(function (e) {
+//     e.style.display = 'none';
+// })
 
 residentialCollection.forEach(function (e) {
     e.style.display = 'none';

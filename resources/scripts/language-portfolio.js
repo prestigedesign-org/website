@@ -19,7 +19,7 @@ let languages = {
         heroHeadingPortfolio: 'Portfolio',
 
 
-        portfolioCategoryOne: `Office`,
+        portfolioCategoryOne: `Furnishing`,
         portfolioCategoryTwo: `Residential`,
         portfolioCategoryThree: `Commercial`,
 
@@ -90,7 +90,7 @@ let languages = {
         footerButton: `جدولة اجتماع`,
 
 
-        portfolioCategoryOne: `مكتب`,
+        portfolioCategoryOne: `تأثيث`,
         portfolioCategoryTwo: `سكني`,
         portfolioCategoryThree: `تجاري`,
 
