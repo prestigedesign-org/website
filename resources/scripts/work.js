@@ -11,7 +11,7 @@ const singleWorkDescriptionThree = document.getElementById(`work-inner-three-des
 
 
 singleWorkOne.addEventListener('mouseover', function () {
-    singleWorkImage.style.background = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resources/images/gallery-project-1.jpeg) no-repeat center center`;
+    singleWorkImage.style.background = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resources/images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-6.jpg`;
     singleWorkImage.style.backgroundSize = `cover`;
 
     singleWorkDescriptionTwo.style.display = `none`;
@@ -20,7 +20,7 @@ singleWorkOne.addEventListener('mouseover', function () {
 })
 
 singleWorkTwo.addEventListener('mouseover', function () {
-    singleWorkImage.style.background = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resources/images/gallery-project-2.jpeg) no-repeat center center`;
+    singleWorkImage.style.background = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resources/images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-1.jpg`;
     singleWorkImage.style.backgroundSize = `cover`;
     singleWorkDescriptionOne.style.display = `none`;
     singleWorkDescriptionThree.style.display = `none`;
@@ -28,7 +28,7 @@ singleWorkTwo.addEventListener('mouseover', function () {
 })
 
 singleWorkThree.addEventListener('mouseover', function () {
-    singleWorkImage.style.background = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resources/images/gallery-project-3.jpeg) no-repeat center center`;
+    singleWorkImage.style.background = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resources/images/Portfolio/Commercial/offices/International-Trading/international-trading-5.jpg`;
     singleWorkImage.style.backgroundSize = `cover`;
     singleWorkDescriptionOne.style.display = `none`;
     singleWorkDescriptionTwo.style.display = `none`;

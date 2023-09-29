@@ -8,7 +8,7 @@ let languages = {
         navMenuContact: `Contact`,
         navMenuCollection: `Collection`,
 
-        heroHeading: `Elevate Your Space with Prestige Design`,
+        heroHeading: `Where Elegance Meets Innovation`,
         heroDescription: `We're an interior design studio in Muscat, creating personalized, eco-friendly spaces that reflect modern lifestyles and well-being. Let's transform your place into a happier, healthier, and more memorable environment. Contact Prestige Design today.`,
         heroButton: `VISIT SHOW ROOM`,
 

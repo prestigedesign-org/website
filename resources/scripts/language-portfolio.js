@@ -15,7 +15,7 @@ let languages = {
         footerHeading: `We can build you the home of your dreams`,
         footerButton: `SCHEDULE A MEETING`,
 
-        projectCta: 'Reserve Your Dream Space Today!',
+        projectCta: 'Book an appointment now',
         heroHeadingPortfolio: 'Portfolio',
 
 
@@ -23,58 +23,99 @@ let languages = {
         portfolioCategoryTwo: `Residential`,
         portfolioCategoryThree: `Commercial`,
 
-        projectOneTitle: 'Photo studio | in focus ',
-        projectOneLocation: 'Oman | Muscat | South hail',
-        projectOneDescription: "Our design transformed In Focus Studio into a creative haven for photographers. With a blend of modern aesthetics and functional spaces, this photo studio provides the perfect backdrop for artistic endeavors. Natural lighting, versatile setups, and an inviting atmosphere make it a hub for capturing unforgettable moments.",
+        projectOneTitle: `International Trading CO`,
+        projectOneLocation: 'Oman | Muscat',
+        projectOneDescription: `All necessary items have been considered in this 71 square-meter office which is designed for VIP meetings.
+The luxury CEO office, impressive waiting area, workspaces for departments managers and cafe bar for serving in a special style have turned this office into an impressive space for VIP clients.
+`,
 
 
-        projectTwoTitle: 'Al MADAR ',
-        projectTwoLocation: 'Oman | Barka',
-        projectTwoDescription: 'Al Madar is a tranquil escape nestled in the heart of Barka. Our design philosophy brought serenity to life with soothing colors, minimalist decor, and a connection to nature. This project harmonizes modern living with natural surroundings, creating a peaceful oasis for residents to unwind and rejuvenate.',
+        projectTwoTitle: 'KHS Office',
+        projectTwoLocation: 'Oman | Muscat',
+        projectTwoDescription: `This office, which is in Muscat Hills area, is designed
+                                    in such a way as to give the client the maximum use of 103
+                                    square meters.
+                                    The manager’s rooms, conference room, workstation, reception, and a waiting area are
+                                    designed with special obsession.
+                                    The use of different materials such as velvet in the decoration of this office not
+                                    only contributes to the beauty of the
+                                    space but also instills a sense of luxury in the client.`,
 
 
-        projectThreeTitle: 'S Design Car Tuning Showroom',
-        projectThreeLocation: 'Oman | Barka',
-        projectThreeDescription: `S Design's Car Tuning Showroom in Barka is a haven for automotive enthusiasts. Our design approach combined sophistication with functionality, providing a sleek and stylish environment to showcase high-performance vehicles and accessories. It's a place where automotive dreams come to life, where design meets speed.`,
+        projectThreeTitle: `Luxury Home Office`,
+        projectThreeLocation: 'Oman | Muscat',
+        projectThreeDescription: `This office of a home automation company is designed in an area of 55 square meters.
+It was one of the most important issues to pay attention to the modern style in accordance with the activities of this company, which was done with special beauty and elegance.
+This project is in Al Hail area of Muscat.
+`,
 
 
 
-        projectFourTitle: 'Creamy Craving Ice Cream Shop',
-        projectFourLocation: 'Oman | Muscat | North Hail',
-        projectFourDescription: `Creamy Craving, nestled in North Hail, is a delightful ice cream haven. Our design embodies the joy and sweetness of ice cream, creating a charming atmosphere where you can savor a variety of delicious frozen treats. It's a place where cravings are met with a smile, and every scoop is a taste of happiness.`,
+        projectFourTitle: `Molecules company office `,
+        projectFourLocation: 'Oman | Muscat',
+        projectFourDescription: `Everything that a medium-sized company needs has been considered in the design of this 250 square meter office.
+Modern reception, working and meeting spaces, CEO room, different waiting area, all make this office one of the most unique offices in Muscat.
+The design of the ceiling of this office gives a sense of freedom and self-confidence at the same time.
+`,
 
-        projectFiveTitle: `Elegant Living Room Design`,
-        projectFiveLocation: `Oman | Mawalah`,
-        projectFiveDescription: `Experience the epitome of elegance in our Living Room design project. Located in the picturesque setting of Mawalah, Oman, this project showcases timeless beauty and modern comfort. The design harmoniously blends luxurious materials, warm color palettes, and functional layouts, creating a living space that is both inviting and visually stunning.`,
+        projectFiveTitle: `Ariana Clinic`,
+        projectFiveLocation: `Oman | Al
+                                        Khuwiar`,
+        projectFiveDescription: `The design and implementation of the clinic not
+                                        only
+                                        requires knowledge of the municipal laws, but you are also required
+                                        to know the rules and red lines of the Ministry of Health.
+                                        Ariana Clinic is an example of the design and implementation of a successful
+                                        project
+                                        of this category, located in the Al
+                                        Khuwiar region.`,
 
-        projectSixTitle: `Modern Office Space`,
-        projectSixLocation: `Oman | Muscat Hills`,
-        projectSixDescription: `Discover the perfect blend of professionalism and contemporary aesthetics in our office design project at Muscat Hills. Located in the heart of Muscat, Oman, this project caters to the needs of a dynamic work environment. The design combines sleek lines, ergonomic furniture, and innovative technology to create a productive and inspiring workspace that elevates your business endeavors.`,
+        projectSixTitle: `Bodrum Café Restaurant`,
+        projectSixLocation: `Oman | Al Arimi`,
+        projectSixDescription: `A combination of Italian and Turkish design styles
+                                        is
+                                        the most important point in the design of this cafe restaurant.
+                                        Two different dining spaces allow the customers of the cafe to choose their
+                                        seating
+                                        according to the selection from the
+                                        restaurant menu.
+                                        This restaurant is in Al Arimi Boulevard Mall, Muscat.`,
 
-        projectSevenTitle: `Office Design`,
-        projectSevenLocation: `Oman | Muscat | Mawalah, Muzon Square Building`,
-        projectSevenDescription: `Discover a harmonious fusion of functionality and style in our office design project at Mawalah, Muzon Square Building. This contemporary office space reflects modern work dynamics, featuring ergonomic furnishings, cutting-edge technology, and an inspiring ambiance. Whether you're a startup or an established business, this office environment promotes productivity and creativity, fostering success in your professional journey.`,
 
-        projectEightTitle: `Perfume Shop`,
-        projectEightLocation: `Oman | Muscat | Al Hail`,
-        projectEightDescription: `Immerse yourself in a world of fragrances at our Perfume Shop in Al Hail. Located in this vibrant district, our shop offers a wide selection of exquisite perfumes, each crafted to evoke unique olfactory experiences. From floral notes to woody undertones, our collection caters to diverse preferences. Discover the perfect scent that complements your style and leaves a lasting impression.`,
+        projectSevenTitle: `International perfume Trading CO
+`,
+        projectSevenLocation: `Oman | Al Hail`,
+        projectSevenDescription: `The most important point in the design of commercial places that have small-sized products is how to display the products.
+This importance is clearly seen in the design of this project.
+Paying attention to the smallest details along with professional aesthetics is one of the most obvious points of this project.
+This project is in Al Hail area of Muscat.
+`,
 
-        projectNineTitle: `Skin Secret - 2`,
-        projectNineLocation: `Oman | Muscat | Grand Mall`,
-        projectNineDescription: `Experience the essence of beauty and skincare at Skin Secret, nestled within the vibrant Grand Mall-2. Our skincare clinic offers a range of services and products tailored to enhance your natural radiance. From rejuvenating facials to premium skincare products, we are dedicated to helping you achieve a glowing, confident complexion. Discover the secret to healthy, radiant skin at Skin Secret.`,
+        projectEightTitle: `In Focus Studio`,
+        projectEightLocation: `Oman | Muscat`,
+        projectEightDescription: ``,
 
-        projectTenTitle: `Skin Secret - 1`,
-        projectTenLocation: `Oman | Muscat | Grand Mall`,
-        projectTenDescription: `Unveil your inner beauty at Skin Secret 1, conveniently situated in the bustling Grand Mall. Our beauty and skincare services are designed to enhance your natural allure. From rejuvenating facials to luxurious skincare treatments, we are committed to helping you look and feel your best. Explore the secrets of radiant skin at Skin Secret 1.`,
 
-        projectElevenTitle: `TV Area`,
-        projectElevenLocation: `Oman | Muscat | Khudh`,
-        projectElevenDescription: `Dive into the world of entertainment and relaxation at our TV AREA in Khudh . Whether you're binge-watching your
-                                favorite shows or hosting a movie night, our design ensures a comfortable and inviting space. From cozy seating to go-to spot for entertainment and relaxation.`,
+        projectNineTitle: `Skin Secret`,
+        projectNineLocation: `Oman | Grand Mall`,
+        projectNineDescription: `Cosmetics shop which is in Grand Mall, Muscat`,
 
-        projectTwelveTitle: `Villa`,
-        projectTwelveLocation: `Oman | Muscat | South Qubrah`,
-        projectTwelveDescription: `Experience the epitome of luxury and comfort in our Villa project located in South Qubrah. This magnificent residence combines timeless architecture with modern amenities to create a serene and elegant living space. From spacious interiors to beautiful outdoor landscapes, it's the perfect place to call home.`,
+        projectTenTitle: `Car Detailing`,
+        projectTenLocation: `Oman | Muscat`,
+        projectTenDescription: `The design and implementation of the first car tuning showroom in Muscat was very exciting.
+The use of special decorative items that have been specially designed for this project has made this project one of the most special designs of our group.`,
+
+        projectElevenTitle: `Matress Showroom`,
+        projectElevenLocation: `Oman | Muscat`,
+        projectElevenDescription: ``,
+
+        projectTwelveTitle: `Creamy Craving`,
+        projectTwelveLocation: `Oman | Muscat`,
+        projectTwelveDescription: `One of the goals of Prestige team's interior designs is to establish the branding system of commercial places.
+Therefore, paying attention to colors and their use is very important for us.
+In this small ice cream shop, which is only 20 square meters in area, you can see this importance.
+This project is in The Village commercial complex.
+`,
 
     },
     arabic: {
@@ -163,20 +204,15 @@ const navMenuStoreBurger = document.getElementById(`nav-menu-store-burger`);
 const navMenuContactBurger = document.getElementById(`nav-menu-contact-burger`);
 const navMenuCollectionBurger = document.getElementById(`nav-menu-collection-burger`);
 
-
-
 const footerTitle = document.getElementById(`footer-title`);
 const footerHeading = document.getElementById(`footer-heading`);
 const footerButton = document.getElementById(`footer-button`);
-
-
 
 const projectCta = document.querySelectorAll(`.product-cta`);
 
 const categoryOne = document.getElementById(`office`);
 const categoryTwo = document.getElementById(`residential`);
 const categoryThree = document.getElementById(`commercial`);
-
 
 const heroHeadingPortfolio = document.getElementById(`hero-heading-portfolio`);
 const projectOneTitle = document.getElementById(`project-one-title`);
@@ -191,8 +227,6 @@ const projectThreeDescription = document.getElementById(`project-three-descripti
 const projectFourTitle = document.getElementById(`project-four-title`);
 const projectFourLocation = document.getElementById(`project-four-location`);
 const projectFourDescription = document.getElementById(`project-four-description`);
-
-
 
 const projectFiveTitle = document.getElementById(`project-five-title`);
 const projectFiveLocation = document.getElementById(`project-five-location`);

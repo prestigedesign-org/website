@@ -365,6 +365,40 @@ img {
               transition: 0.3s; }
               .nav .container .nav-contents .nav-menu ul li a:hover {
                 color: #4a707a; }
+        .nav .container .nav-contents .nav-menu .dropdown {
+          display: flex;
+          flex-direction: column;
+          position: relative; }
+          .nav .container .nav-contents .nav-menu .dropdown .services-sub-category {
+            display: none;
+            min-width: 250px;
+            width: 100%;
+            flex-direction: column;
+            position: absolute;
+            justify-content: start;
+            align-items: start;
+            margin: 0;
+            top: 10px;
+            left: 0;
+            color: #ddddda;
+            padding: 10px 0;
+            padding-top: 30px; }
+            .nav .container .nav-contents .nav-menu .dropdown .services-sub-category li {
+              margin: 0;
+              width: 100%;
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              margin-bottom: 10px;
+              padding: 7px;
+              border-radius: 10px;
+              background: #dadadad0; }
+              .nav .container .nav-contents .nav-menu .dropdown .services-sub-category li a {
+                color: #1e1e1e; }
+                .nav .container .nav-contents .nav-menu .dropdown .services-sub-category li a:hover {
+                  color: #4a707a; }
+        .nav .container .nav-contents .nav-menu .dropdown:hover .services-sub-category {
+          display: flex !important; }
       .nav .container .nav-contents .nav-icons {
         display: flex;
         justify-content: space-between;
@@ -956,13 +990,13 @@ img {
     -o-transition: .5s ease-out;
     transition: .5s ease-out; }
   .header-index .slider .background:nth-of-type(1) {
-    background-image: url("../images/hero-1.jpeg"); }
+    background-image: url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-6.jpg"); }
   .header-index .slider .background:nth-of-type(2) {
-    background-image: url("../images/hero-2.jpeg"); }
-  .header-index .slider .background:nth-of-type(3) {
-    background-image: url("../images/hero-3.jpeg"); }
+    background-image: url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-1.jpg"); }
   .header-index .slider .background:nth-of-type(4) {
-    background-image: url("../images/hero-2.jpeg"); }
+    background-image: url("../images/Portfolio/Commercial/offices/International-Trading/international-trading-5.jpg"); }
+  .header-index .slider .background:nth-of-type(3) {
+    background-image: url("../images/hero-wallpaper.jpeg"); }
   .header-index .slider .active {
     opacity: 1;
     z-index: 1; }
@@ -1042,22 +1076,35 @@ img {
       transition: 0.3s; }
     .header-index .collection-filter .shop-filter:hover {
       transform: scale(1.1); }
-    .header-index .collection-filter .wallpaper {
-      background: url(../images/hero-1.jpeg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center; }
-    .header-index .collection-filter .decorative {
-      background: url(../images/hero-2.jpeg);
+    .header-index .collection-filter .sub-services {
+      background: url("../images/Portfolio/Commercial/offices/International-Trading/international-trading-1.jpg"); }
+    .header-index .collection-filter .sub-portfolio {
+      background: url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-1.jpg"); }
+    .header-index .collection-filter .sub-shop {
+      background: url("../images/hero-wallpaper.jpeg"); }
+    .header-index .collection-filter .sub-residential {
+      background: url("../images/Portfolio/residential/kitchen/kitchen-2.jpg"); }
+    .header-index .collection-filter .sub-furnishing {
+      background: url("../images/Portfolio/Commercial/offices/Luxury-Home/luxury-home-6.jpg"); }
+    .header-index .collection-filter .sub-commercial {
+      background: url("../images/Portfolio/Commercial/shops/car-tuning-showroom/car-tuning-showroom-2.jpg"); }
+    .header-index .collection-filter .sub-office-port {
+      background: url("../images/Portfolio/residential/living-room/living-room1.jpg"); }
+    .header-index .collection-filter .sub-residential-port {
+      background: url("../images/Portfolio/Commercial/offices/Molecules-Company/molecules-company-1.jpg"); }
+    .header-index .collection-filter .sub-commercial-port {
+      background: url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-6.jpg"); }
+    .header-index .collection-filter .sub-wallpaper {
+      background: url("../images/hero-wallpaper-cat.jpeg"); }
+    .header-index .collection-filter .sub-decorative {
+      background: url("../images/store-5.png"); }
+    .header-index .collection-filter .sub-posters {
+      background: url("../images/poster.jpeg"); }
+    .header-index .collection-filter .shop-filter {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
       margin: 0 20px; }
-    .header-index .collection-filter .posters {
-      background: url(../images/hero-3.jpeg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center; }
 
 .header-contact {
   width: 100%;
@@ -1282,6 +1329,15 @@ img {
             border: 1px solid #94b0b7; }
             .services .container .services-contents .services-description .single-services:hover .services-icon {
               transform: scale(1.1); }
+          .services .container .services-contents .services-description .single-services:nth-child(1) {
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-6.jpg") no-repeat center center;
+            background-size: cover; }
+          .services .container .services-contents .services-description .single-services:nth-child(2) {
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-1.jpg") no-repeat center center;
+            background-size: cover; }
+          .services .container .services-contents .services-description .single-services:nth-child(3) {
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/Portfolio/Commercial/offices/International-Trading/international-trading-5.jpg") no-repeat center center;
+            background-size: cover; }
         .services .container .services-contents .services-description p {
           text-align: justify; }
           .services .container .services-contents .services-description p strong {
@@ -1354,7 +1410,7 @@ img {
         align-items: end;
         height: 700px;
         max-height: 700px;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/gallery-project-3.jpeg) no-repeat center center;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-6.jpg") no-repeat center center;
         background-size: cover;
         color: #ddddda; }
         .work .container .work-contents .work-bottom .single-work {
@@ -1445,23 +1501,44 @@ img {
           color: #ddddda;
           font-size: 20px;
           border-radius: 25px;
-          font-size: 25px;
+          font-size: 20px;
           cursor: pointer; }
-        .main-portfolio .portfolio .container .collection-filter .offices {
-          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-1.jpeg);
+        .main-portfolio .portfolio .container .collection-filter .commercials {
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-6.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center; }
         .main-portfolio .portfolio .container .collection-filter .residentials {
-          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-2.jpeg);
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-1.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center; }
-        .main-portfolio .portfolio .container .collection-filter .commercials {
-          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-3.jpeg);
+        .main-portfolio .portfolio .container .collection-filter .offices {
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Portfolio/Commercial/offices/International-Trading/international-trading-5.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center; }
+      .main-portfolio .portfolio .container .filter-subcategory {
+        display: none;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        .main-portfolio .portfolio .container .filter-subcategory > * {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 15px;
+          text-align: center;
+          height: 80px;
+          width: 150px;
+          min-width: 150px;
+          padding: 20px;
+          margin: 5px;
+          background-color: #ddddda;
+          color: #1e1e1e;
+          cursor: pointer; }
       .main-portfolio .portfolio .container .portfolio-contents {
         width: 100%; }
         .main-portfolio .portfolio .container .portfolio-contents .project {
@@ -1471,6 +1548,7 @@ img {
           align-items: center;
           flex-direction: column; }
           .main-portfolio .portfolio .container .portfolio-contents .project .single-project {
+            width: 100%;
             display: flex;
             padding: 40px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
@@ -1507,25 +1585,40 @@ img {
               padding: 0 30px;
               display: flex;
               flex-direction: column;
-              justify-content: start;
+              justify-content: space-between;
               align-items: starts; }
               .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info a {
                 width: fit-content;
                 display: flex;
                 justify-content: center;
-                align-items: center; }
-              .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info h2 {
-                font-size: 25px; }
-              .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info i {
-                font-size: 25px;
-                margin: 10px; }
-              .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info p {
-                padding: 20px 0;
-                text-align: justify; }
-              .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info span {
-                color: #1e1e1e;
-                opacity: 80%;
-                margin-top: 10px; }
+                align-items: center;
+                align-self: flex-end;
+                justify-self: flex-end; }
+                .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info a:hover i {
+                  transform: scale(1.2);
+                  color: #ddddda; }
+                .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info a i {
+                  transition: 0.3s;
+                  margin: 0 10px; }
+              .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info div {
+                width: 100%;
+                padding: 0 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: starts; }
+                .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info div h2 {
+                  font-size: 25px; }
+                .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info div i {
+                  font-size: 25px;
+                  margin: 10px; }
+                .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info div p {
+                  padding: 20px 0;
+                  text-align: justify; }
+                .main-portfolio .portfolio .container .portfolio-contents .project .single-project .single-project-info div span {
+                  color: #1e1e1e;
+                  opacity: 80%;
+                  margin-top: 10px; }
 
 .gallery-popup-portfolio {
   position: fixed;
@@ -1542,12 +1635,22 @@ img {
   align-items: center;
   position: fixed; }
   .gallery-popup-portfolio i {
+    cursor: pointer;
     color: #ddddda;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
-    top: 0;
-    right: 0;
     padding: 40px; }
+  .gallery-popup-portfolio .fa-times {
+    top: 0;
+    right: 0; }
+  .gallery-popup-portfolio .fa-chevron-left {
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%); }
+  .gallery-popup-portfolio .fa-chevron-right {
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%); }
   .gallery-popup-portfolio img {
     width: 600px;
     object-fit: cover;
@@ -1621,17 +1724,17 @@ img {
     border-radius: 25px;
     cursor: pointer; }
   .main-collection .container .collection-filter .wallpaper {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-1.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hero-wallpaper.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
   .main-collection .container .collection-filter .decorative {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-2.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/store-5.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
   .main-collection .container .collection-filter .posters {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-3.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/poster.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
