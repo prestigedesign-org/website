@@ -63,14 +63,19 @@ let languages = {
         workHeading: `3 Easy steps to get interior design`,
         workDescription: `The of your kitchen varies from one layout to another.The shape of the kitchen also determines the and space for cabinets, countertops, and accessories.`,
 
-        workInnerOneHeading: `We Visit You In the Comfort of Your Home`,
-        workInnerOneDescription: `The of your kitchen varies from one layout to another. The shape of the kitchen also determines the and space for cabinets, countertops, and accessories.`,
+        workInnerOneHeading: `Site Visiting`,
+        workInnerOneDescription: `In the first step, while visiting your site, we review
+                                all the details of the project with the  design team.`,
 
-        workInnerTwoHeading: `preliminary Computer Designs`,
-        workInnerTwoDescription: `Next, our experts translate your vision into preliminary computer designs. This step brings your ideas to life on  screen, ensuring we're on the right track.  `,
+        workInnerTwoHeading: `Designing`,
+        workInnerTwoDescription: `At this stage, which is after the conclusion of the
+                                contract, the 3D design is done by our professional design group and
+                                presented to you for approval.`,
 
-        workInnerThreeHeading: `Begin The Detailed design process`,
-        workInnerThreeDescription: `With your feedback, we refine and begin the detailed design process. Every element is meticulously crafted to create a  space that reflects your unique style and personality.`,
+        workInnerThreeHeading: `Fit Out`,
+        workInnerThreeDescription: `The approved plan will be sent to the implementation
+                                department and your project will be implemented with the material
+                                analysis table and schedule.`,
 
 
         footerTitle: `YOU DREAM IT, WE DESIGN IT`,
