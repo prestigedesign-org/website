@@ -107,12 +107,6 @@ function laguageSetter() {
             footerHeading.innerHTML = languages[currentLanguage].footerHeading;
             footerButton.innerHTML = languages[currentLanguage].footerButton;
 
-
-
-
-
-
-
         }
     }
     localStorage.setItem('language', websiteLanguage);
@@ -528,7 +522,14 @@ function loadLanguage() {
             ],
 
         ]
-        languageAssitant = [`Design:`, `Roll size:`, `Repeat:`, `Match:`, `Quality:`, `Colourways`];
+        languageAssitant = [
+            `Design:`,
+            `Roll size:`,
+            `Repeat:`,
+            `Match:`,
+            `Quality:`,
+            `Select Color and Order Now`
+        ];
     }
     else if (websiteLanguage === `arabic`) {
         document.body.classList.add(`website-language-arabic`);

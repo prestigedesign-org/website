@@ -278,8 +278,15 @@ const collectionsTag = document.querySelector(`.collections`);
 
 const infoSetter = document.querySelectorAll(`.collection-info`);
 
-let collectionsHTML = '';
 
+// const shoppingCartWrapper = document.querySelector('.shopping-cart');
+// const cartCloser = document.querySelector('.shopping-cart .fa-times');
+// const basketCart = document.querySelector(".nav-icons .fa-shopping-cart");
+// const productRow = document.querySelector('.shopping-row-wrapper');
+// let remover = document.querySelectorAll('.fa-trash');
+// let producatQuantity = document.querySelectorAll('.product-quantity');
+
+let collectionsHTML = '';
 // ==================================
 
 function initialCollections() {
@@ -322,7 +329,7 @@ function initialCollections() {
                                 <i class="fa fa-chevron-up" style="display: none;"> </i>
                             </p>`;
 
-        collectionsHTML += `<div class="order-now " >Order Now <i class="fa fa-shopping-cart"></i></div>`
+        // collectionsHTML += `<div class="order-now " >Order Now <i class="fa fa-shopping-cart"></i></div>`
 
         collectionsHTML += `</div>`;
 
@@ -372,7 +379,10 @@ function initialCollections() {
         for (let z = 0; z < collections[i][2][0][6].length; z++) {
             collectionsHTML += ` <div class="slider-color-ways-details">`;
             collectionsHTML += ` <img src="${collections[i][2][0][6][z]}" loading="lazy" alt="collection image ">
-            <span>${collections[i][2][0][7][z]}</span>`;
+            <div>
+            <span>${collections[i][2][0][7][z]} </span>
+            <i class="fa fa-shopping-cart add-to-cart" ></i>
+            </div>`;
             collectionsHTML += `</div>`;
         }
 
@@ -395,12 +405,203 @@ initialCollections();
 
 
 
+
+
+
+
+// //quantity updater
+// function quantityUpdater() {
+//     producatQuantity = document.querySelectorAll('.product-quantity');
+//     producatQuantity.forEach(element => {
+//         // console.log(element);
+
+//         element.addEventListener('keyup', function () {
+//             let data = localStorage.getItem(`code${element.dataset.quant}`).split(',');
+//             data[3] = element.value;
+//             localStorage.setItem(`code${element.dataset.quant}`, data);
+
+//         })
+//     });
+
+// }
+
+// // shopping cart row remover
+// function productRowRemover() {
+//     remover = document.querySelectorAll('.fa-trash');
+//     const cartNotif = document.querySelector('.fa-info-circle');
+//     remover.forEach((e) => {
+//         e.addEventListener("click", function (elem) {
+//             const removeElem = elem.target.parentElement.parentElement
+
+//             // console.log(`code${removeElem.querySelector('.data-code').innerText}`);
+//             localStorage.removeItem(`code${removeElem.querySelector('.data-code').innerText}`);
+//             // removeElem.style.display = 'none';
+//             removeElem.remove();
+
+//             remover = document.querySelectorAll('.fa-trash');
+//             // console.log(remover.length);
+//             if (remover.length > 0) {
+//                 cartNotif.style.display = 'block';
+//             } else {
+//                 cartNotif.style.display = 'none';
+//                 shoppingCartWrapper.style.display = "none";
+
+//             }
+//         })
+//     })
+//     remover = document.querySelectorAll('.fa-trash');
+//     if (remover.length > 0) {
+//         cartNotif.style.display = 'block';
+//     } else {
+//         shoppingCartWrapper.style.display = "none";
+//         cartNotif.style.display = 'none';
+//     }
+// }
+// productRowRemover();
+
+
+
+// // add to cart
+// cartCloser.addEventListener('click', () => {
+//     shoppingCartWrapper.style.display = "none";
+
+// })
+
+// basketCart.addEventListener('click', () => {
+//     remover = document.querySelectorAll('.fa-trash');
+//     if (remover.length > 0) {
+//         shoppingCartWrapper.style.display = "flex";
+//     } else {
+//         emptyNotif.style.display = 'block'
+//         setTimeout(() => {
+//             emptyNotif.style.display = 'none'
+//         }, 1000);
+
+//     }
+
+// })
+
+// function addToShoppingCart(mainCat, subCat, codeCat, quantity, imageSrc) {
+//     const isProduct = document.querySelector(`[dataCode='${codeCat}'`);
+//     const productquant = document.querySelector(`[data-quant='${codeCat}']`);
+
+//     if (isProduct) {
+//         productquant.setAttribute('value', quantity);
+
+//         if (refreshPage) {
+//             ShopNotif.style.display = 'flex';
+//             setTimeout(() => {
+//                 ShopNotif.style.display = 'none';
+//             }, 500);
+//         }
+
+//     } else {
+//         try {
+//             productRow.innerHTML += `
+//            <div class="shopping-row shopping-row-data" >
+//                 <div><img src="${imageSrc}" alt="${subCat}"></div>
+//                 <div>${mainCat}</div>
+//                 <div>${subCat}</div>
+//                 <div datacode='${codeCat}' class='data-code'>${codeCat}</div>
+//                 <div class="shopping-data-input">
+//                     <input class="product-quantity" data-quant='${codeCat}' type="number" value="${quantity}"></input>
+//                     <i class="fa fa-trash"></i>
+//                 </div>
+//              </div>`;
+//             if (refreshPage) {
+//                 ShopNotif.style.display = 'flex';
+//                 setTimeout(() => {
+//                     ShopNotif.style.display = 'none';
+//                 }, 500);
+//             }
+//         } catch (error) {
+//             alert(error + '  | Error 212');
+
+//         }
+
+//     }
+//     productRowRemover();
+//     quantityUpdater();
+// }
+
+
+// // cart initializer
+// function cartInit() {
+//     const codeData = {};
+
+//     for (let i = 0; i < localStorage.length; i++) {
+//         const key = localStorage.key(i);
+//         if (key.startsWith("code")) {
+//             codeData[key] = localStorage.getItem(key);
+//         }
+//     }
+//     const codeDataArray = Object.entries(codeData);
+
+//     codeDataArray.forEach(([key, value]) => {
+//         const valuesArray = value.split(',');
+//         addToShoppingCart(valuesArray[0], valuesArray[1], valuesArray[2], valuesArray[3], valuesArray[4]);
+//     });
+//     refreshPage = true;
+// }
+// cartInit();
+
+// // cart notification
+// // function cartNotification() {
+
+
+// // }
+// // cartNotification();
+
+// // add to cart click handler
+// function shoppingCart() {
+//     const addToCart = document.querySelectorAll('.add-to-cart');
+
+//     addToCart.forEach((elem) => {
+//         elem.addEventListener('click', function (e) {
+//             // console.log(e.target.parentElement.parentElement.parentElement)
+//             const codeCat = e.target.parentElement.querySelector('span').innerText;
+
+//             // console.log(quantity);
+//             const imageSrc = e.target.parentElement.parentElement.querySelector('img').getAttribute('src');
+//             // console.log(imageSrc)
+
+//             const subCategory = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.querySelector('.collection-info-design').innerHTML;
+//             // console.log(subCategory);
+
+//             const collectionNameSelected = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.querySelector('.collection-heading-title').innerHTML.split(' ')[0];
+//             // console.log(collectionNameSelected);
+
+//             // localStorage.setItem(`code${codeCat}`, [collectionNameSelected, subCategory, codeCat, quantity, imageSrc])
+
+
+
+//             if (localStorage.getItem(`code${codeCat}`)) {
+//                 localStorage.setItem(`code${codeCat}`,
+//                     [collectionNameSelected, subCategory, codeCat, parseInt(localStorage.getItem(`code${codeCat}`).split(',')[3]) + 1, imageSrc])
+//             } else {
+//                 localStorage.setItem(`code${codeCat}`,
+//                     [collectionNameSelected, subCategory, codeCat, '1', imageSrc])
+//             }
+
+
+//             const quantity = localStorage.getItem(`code${codeCat}`).split(',')[3];
+
+//             // cartNotification();
+
+//             addToShoppingCart(collectionNameSelected, subCategory, codeCat, quantity, imageSrc);
+
+//         })
+//     })
+// }
+// shoppingCart();
+
+
 // more info button togeller
 function moreInfoBtn(event) {
 
     // console.log(event.target.parentElement);
 
-    const moreInfoClickParent = event.target.parentElement.parentElement.parentElement.parentElement;
+    const moreInfoClickParent = event.target.parentElement.parentElement.parentElement.parentElement.parentElement;
     // console.log(moreInfoClickParent);
 
 
@@ -410,27 +611,18 @@ function moreInfoBtn(event) {
     const colorWaysUp = moreInfoClickParent.querySelector(`.fa-chevron-up`);
 
 
-    // console.log(colorwaysSection);
-    // console.log(colorWaysDown);
-    // console.log(colorWaysUp);
-
     if (colorWaysUp.style.display === 'none') {
 
         colorWaysUp.style.display = 'flex';
         colorWaysDown.style.display = 'none';
         colorwaysSection.style.display = 'flex';
+
     } else if (colorWaysUp.style.display !== 'none') {
         colorWaysUp.style.display = 'none';
         colorWaysDown.style.display = 'flex';
         colorwaysSection.style.display = 'none';
     }
 }
-
-
-
-
-
-
 
 // slider
 
@@ -474,12 +666,6 @@ const allSliders = document.querySelectorAll('.slider-up');
 allSliders.forEach((slider) => {
     initializeSlider(slider);
 });
-
-
-
-
-
-
 
 // design category handler
 function myFunction(event) {
@@ -528,6 +714,11 @@ function myFunction(event) {
         }
     }
 
+
+
+
+
+
     // setting the slides of collections 
     const sliderContainer = handler.querySelector(`.slider-container`);
     let sliderContainerHTML = ``;
@@ -551,17 +742,18 @@ function myFunction(event) {
         sliderContainerHTML += `
             <div class="slider-color-ways-details">
             <img loading="lazy" src="${colorways[m]}" alt="collection image">
+            <div>
             <span>${colorwayNames[m]}</span>
+            <i class="fa fa-shopping-cart add-to-cart" ></i>
+            </div>
+            
             </div>`;
     }
     sliderColorWays.innerHTML = sliderContainerHTML;
 
     initializeSlider(handler.querySelector('.slider-up'));
+    shoppingCart();
 }
-
-
-
-
 
 // filter categories
 wallpaperCollection.style.display = 'flex';
@@ -585,3 +777,6 @@ posters.addEventListener('click', function () {
     decorativeCollection.style.display = 'none';
     posterCollection.style.display = 'flex';
 })
+
+
+
