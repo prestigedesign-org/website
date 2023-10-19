@@ -66,6 +66,11 @@
                             <i class="fa fa-moon"></i>
                             <i class="fa fa-sun"></i>
                         </div> -->
+                        <div class="nav-cart">
+                            <i class="fa fa-shopping-cart">
+                                <i class="fa fa-info-circle"></i>
+                            </i>
+                        </div>
                         <div class="nav-burger-menu" id="nav-burger-menu">
                             <i class="fa fa-bars"></i>
                             <div class="burger-menu">
@@ -157,6 +162,71 @@
         </div>
 
 
+
+
+        <!-- notification -->
+        <div class="notification" id="notification">
+            Your work has been saved
+        </div>
+
+        <div class="shop-notification">
+            Successfully Added
+        </div>
+        <div class="shop-notification-empty">
+            Shopping Basket is empty
+        </div>
+        <!-- shopping cart -->
+        <div class="shopping-cart">
+            <div class="cart-wrapper">
+                <div class="order-now-popup" id="contact-form-wrapper">
+                    <div class="contact-form">
+                        <span>Please fill below form, we will call you as soon as possible</span>
+                        <form id="contact-form"
+                            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse">
+
+                            <input type="text" name="entry.1419853720" placeholder="Subject" class="form-subject"
+                                autocomplete="off" required id="form-subject">
+
+                            <input type="text" name="entry.812101243" placeholder="Name" class="form-name"
+                                autocomplete="off" required id="form-name">
+
+                            <input type="email" name="entry.898897978" placeholder="Email" class="form-email"
+                                autocomplete="off" required id="form-email">
+
+                            <input type="number" name="entry.108053488" placeholder="Phone number" class="form-number"
+                                autocomplete="off" required id="form-phone">
+
+                            <input type="text" name="entry.899080279" placeholder="Address" class="form-address"
+                                autocomplete="off" required id="form-address">
+
+
+                            <textarea name="entry.1285101246" placeholder="Message" required
+                                id="form-message"></textarea>
+                            <button type="submit" class="button button-dark" id="form-submit">Submit Form</button>
+
+                        </form>
+                        <div class="shopping-row shopping-row-header">
+                            <div>Image</div>
+                            <div>Collection</div>
+                            <div>Design </div>
+                            <div>Color Code</div>
+                            <div>Quantity</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping-row-wrapper">
+                    <!-- <div class="shopping-row shopping-row-header">
+                                    <div>Image</div>
+                                    <div>Collection</div>
+                                    <div>Design </div>
+                                    <div>Color Code</div>
+                                    <div>Quantity</div>
+                                </div> -->
+                </div>
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+
     </main>
 
     <!-- footer -->
@@ -225,6 +295,8 @@
     <!-- scripts -->
     <script src="resources/scripts/language-about.js"></script>
     <script src="resources/scripts/video-player.js"></script>
+    <script src="resources/scripts/cart.js"></script>
+
     <script src="resources/scripts/burger-menu.js"></script>
 
 </body>
