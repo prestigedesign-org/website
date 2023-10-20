@@ -381,7 +381,8 @@ img {
           justify-content: end;
           margin-right: 50px; }
           .nav .container .nav-contents .nav-menu ul li {
-            margin-left: 20px; }
+            margin-left: 20px;
+            z-index: 100; }
             .nav .container .nav-contents .nav-menu ul li a {
               padding: 5px;
               cursor: pointer;
@@ -393,34 +394,43 @@ img {
           display: flex;
           flex-direction: column;
           position: relative; }
-          .nav .container .nav-contents .nav-menu .dropdown .services-sub-category {
-            display: none;
-            min-width: 250px;
-            width: 100%;
-            flex-direction: column;
+          .nav .container .nav-contents .nav-menu .dropdown .dropdown-wrapper {
             position: absolute;
-            justify-content: start;
-            align-items: start;
-            margin: 0;
-            top: 10px;
-            left: 0;
-            color: #ddddda;
-            padding: 10px 0;
-            padding-top: 30px; }
-            .nav .container .nav-contents .nav-menu .dropdown .services-sub-category li {
-              margin: 0;
-              width: 100%;
-              display: flex;
+            top: 20px;
+            left: 0; }
+            .nav .container .nav-contents .nav-menu .dropdown .dropdown-wrapper .services-sub-category {
+              z-index: 50;
+              margin-top: 30px;
+              display: none;
+              min-width: fit-content;
+              width: 50%;
+              background: #ddddda;
+              flex-direction: column;
               justify-content: start;
-              align-items: center;
-              margin-bottom: 10px;
-              padding: 7px;
-              border-radius: 10px;
-              background: #dadadad0; }
-              .nav .container .nav-contents .nav-menu .dropdown .services-sub-category li a {
-                color: #1e1e1e; }
-                .nav .container .nav-contents .nav-menu .dropdown .services-sub-category li a:hover {
-                  color: #4a707a; }
+              align-items: start;
+              margin: 0;
+              margin-top: 39px;
+              padding: 10px;
+              color: #ddddda; }
+              .nav .container .nav-contents .nav-menu .dropdown .dropdown-wrapper .services-sub-category li {
+                margin: 0;
+                width: 100%;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                margin-bottom: 10px;
+                background: #dadadad0;
+                white-space: nowrap;
+                transition: 0.5s;
+                padding: 15px; }
+                .nav .container .nav-contents .nav-menu .dropdown .dropdown-wrapper .services-sub-category li:hover {
+                  color: #ddddda;
+                  background: #4a707a;
+                  border-radius: 20px; }
+                  .nav .container .nav-contents .nav-menu .dropdown .dropdown-wrapper .services-sub-category li:hover a {
+                    color: #ddddda; }
+                .nav .container .nav-contents .nav-menu .dropdown .dropdown-wrapper .services-sub-category li a {
+                  color: #1e1e1e; }
         .nav .container .nav-contents .nav-menu .dropdown:hover .services-sub-category {
           display: flex !important; }
       .nav .container .nav-contents .nav-icons {
@@ -483,15 +493,15 @@ img {
   width: 100%;
   max-height: 100vh;
   height: 100vh;
-  overflow: auto;
+  overflow-y: auto;
   display: none;
   flex-direction: column;
   align-items: center;
   padding-top: 70px; }
   .shopping-cart .cart-wrapper {
-    width: 98%;
+    max-width: 700px;
+    width: 100%;
     max-height: 100%;
-    overflow-y: auto;
     border-radius: 25px;
     padding-bottom: 10px; }
     .shopping-cart .cart-wrapper .order-now-popup {
@@ -512,7 +522,9 @@ img {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border-radius: 20px; }
+        border-radius: 20px;
+        margin-bottom: 50px;
+        overflow: hidden; }
         .shopping-cart .cart-wrapper .order-now-popup .contact-form span {
           padding: 25px 20px; }
         .shopping-cart .cart-wrapper .order-now-popup .contact-form .shopping-row {
@@ -521,7 +533,7 @@ img {
           display: grid;
           grid-template-columns: repeat(5, 1fr);
           align-items: center;
-          padding: 10px 10px;
+          padding: 10px 5px;
           text-align: center; }
           .shopping-cart .cart-wrapper .order-now-popup .contact-form .shopping-row-header {
             font-weight: bold;
@@ -568,41 +580,46 @@ img {
       min-width: 100%;
       max-width: 100%;
       border: 2px solid #ddddda;
-      overflow-y: auto; }
+      overflow-y: auto;
+      grid-column: 1 /-1; }
       .shopping-cart .cart-wrapper .shopping-row-wrapper .shopping-row {
         width: 100%;
         min-height: 30px;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         align-items: center;
-        padding: 10px 10px;
+        padding: 10px 4px;
         margin-bottom: 20px;
         text-align: center;
-        padding-top: 30px; }
+        padding-top: 30px;
+        color: #1e1e1e; }
         .shopping-cart .cart-wrapper .shopping-row-wrapper .shopping-row-header {
+          font-size: 14px;
           font-weight: bold;
           background: #ddddda;
           color: #1e1e1e;
           padding: 10px 0; }
-        .shopping-cart .cart-wrapper .shopping-row-wrapper .shopping-row-data img {
-          object-position: center;
-          object-fit: cover;
-          width: 75px;
-          height: 75px;
-          border-radius: 20px; }
-        .shopping-cart .cart-wrapper .shopping-row-wrapper .shopping-row-data .shopping-data-input input {
-          height: 35px;
-          width: 40px;
-          padding: 5px;
-          text-align: center;
-          border: none;
-          outline: none;
-          border-radius: 10px;
-          font-size: 20px;
-          background: #ddddda; }
+        .shopping-cart .cart-wrapper .shopping-row-wrapper .shopping-row-data {
+          font-size: 13px; }
+          .shopping-cart .cart-wrapper .shopping-row-wrapper .shopping-row-data img {
+            object-position: center;
+            object-fit: cover;
+            width: 60px;
+            height: 60px;
+            border-radius: 20px; }
+          .shopping-cart .cart-wrapper .shopping-row-wrapper .shopping-row-data .shopping-data-input input {
+            height: 35px;
+            width: 45px;
+            padding: 5px;
+            text-align: center;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            font-size: 20px;
+            background: #fff; }
       .shopping-cart .cart-wrapper .shopping-row-wrapper .fa-trash {
-        color: #ddddda;
-        margin: 0 10px;
+        color: #1e1e1e;
+        margin: 0 2px;
         cursor: pointer;
         transition: 0.5s; }
         .shopping-cart .cart-wrapper .shopping-row-wrapper .fa-trash:hover {
