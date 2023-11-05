@@ -1,294 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the art of interior design with Prestige Design. Explore our stunning portfolio, where creativity meets functionality. Let us transform your home into a masterpiece. Contact us today for personalized design consultations."
+    />
+    <title>
+      Prestige Design | Elevate Your Living Spaces with Inspired Interior Design
+    </title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Discover the art of interior design with Prestige Design. Explore our stunning portfolio, where creativity meets functionality. Let us transform your home into a masterpiece. Contact us today for personalized design consultations.">
-    <title>Prestige Design | Elevate Your Living Spaces with Inspired Interior Design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="resources/styles/style.css" />
+  </head>
 
-    <link rel="stylesheet" href="resources/styles/style.css">
-
-</head>
-
-<body class="ligh-mode-color">
+  <body class="ligh-mode-color">
     <!-- header -->
     <header class="header-about" id="header-about">
-        <!-- navbar -->
-        <div class="nav">
-            <div class="container">
-                <div class="nav-contents">
-                    <div class="nav-logo">
-                        <a href="index.html">
-                            <img src="resources/images/navan-logo-light.png" alt="Prestige Design logo" loading="lazy">
-                        </a>
-                    </div>
-                    <div class="nav-menu">
-                        <ul>
-                            <li><a href="index.html" id="nav-menu-home">Home</a></li>
-                            <li class="dropdown">
-                                <a href="services.html" id="nav-menu-store">Services</a>
-                                <div class="dropdown-wrapper">
+      <!-- navbar -->
+      <div class="nav">
+        <div class="container">
+          <div class="nav-contents">
+            <div class="nav-logo">
+              <a href="index.html">
+                <img
+                  src="resources/images/navan-logo-light.png"
+                  alt="Prestige Design logo"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="nav-menu">
+              <ul>
+                <li><a href="index.html" id="nav-menu-home">Home</a></li>
+                <li class="dropdown">
+                  <a href="services.html" id="nav-menu-store">Services</a>
+                  <div class="dropdown-wrapper">
+                    <ul class="services-sub-category">
+                      <li>
+                        <a href="commercial.html">Commercial design</a>
+                      </li>
+                      <li>
+                        <a href="residential.html">Residential design </a>
+                      </li>
+                      <li>
+                        <a href="consultation.html">Furnishing Consultation</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
 
-                                    <ul class="services-sub-category">
-                                        <li>
-                                            <a href="services.html#service-one-heading-head">Commercial design</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html#service-two-heading-head">Residential design
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html#service-three-heading-head">Furnishing Consultation</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
+                <li>
+                  <a href="portfolio.html" id="nav-menu-portfolio">Portfolio</a>
+                </li>
+                <li><a href="shop.html" id="nav-menu-collection">Shop</a></li>
 
-                            <li><a href="portfolio.html" id="nav-menu-portfolio">Portfolio</a></li>
-                            <li><a href="shop.html" id="nav-menu-collection">Shop</a></li>
+                <li>
+                  <a href="about.html" id="nav-menu-about" class="selected"
+                    >About</a
+                  >
+                </li>
 
-
-                            <li><a href="about.html" id="nav-menu-about" class="selected">About</a></li>
-
-
-
-
-                            <li><a href="contact.html" id="nav-menu-contact">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="nav-icons">
-                        <div class="languages" id="language-toggeler">
-                            <span id="en-language">EN</span>
-                            <span id="ar-language">AR</span>
-                        </div>
-                        <!-- <div class="theme-mode">
+                <li>
+                  <a href="contact.html" id="nav-menu-contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-icons">
+              <div class="languages" id="language-toggeler">
+                <span id="en-language">EN</span>
+                <span id="ar-language">AR</span>
+              </div>
+              <!-- <div class="theme-mode">
                             <i class="fa fa-moon"></i>
                             <i class="fa fa-sun"></i>
                         </div> -->
-                        <div class="nav-cart">
-                            <i class="fa fa-shopping-cart">
-                                <i class="fa fa-info-circle"></i>
-                            </i>
-                        </div>
-                        <div class="nav-burger-menu" id="nav-burger-menu">
-                            <i class="fa fa-bars"></i>
-                            <div class="burger-menu">
-                                <i class="fa fa-times"></i>
-                                <ul>
-                                    <li><a href="index.html" id="nav-menu-home-burger">Home</a></li>
-                                    <li><a href="portfolio.html" id="nav-menu-portfolio-burger">Portfolio</a>
-                                    <li><a href="services.html" id="nav-menu-store-burger">Services</a></li>
+              <div class="nav-cart">
+                <i class="fa fa-shopping-cart">
+                  <i class="fa fa-info-circle"></i>
+                </i>
+              </div>
+              <div class="nav-burger-menu" id="nav-burger-menu">
+                <i class="fa fa-bars"></i>
+                <div class="burger-menu">
+                  <i class="fa fa-times"></i>
+                  <ul>
+                    <li>
+                      <a href="index.html" id="nav-menu-home-burger">Home</a>
+                    </li>
+                    <li>
+                      <a href="portfolio.html" id="nav-menu-portfolio-burger"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li>
+                      <a href="services.html" id="nav-menu-store-burger"
+                        >Services</a
+                      >
+                    </li>
 
+                    <li>
+                      <a href="shop.html" id="nav-menu-collection-burger"
+                        >Shop</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="about.html"
+                        id="nav-menu-about-burger"
+                        class="selected"
+                        >About</a
+                      >
+                    </li>
 
-                                    <li><a href="shop.html" id="nav-menu-collection-burger">Shop</a></li>
-                                    <li><a href="about.html" id="nav-menu-about-burger" class="selected">About</a> </li>
-
-                                    <li><a href="contact.html" id="nav-menu-contact-burger">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    <li>
+                      <a href="contact.html" id="nav-menu-contact-burger"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-
+      </div>
     </header>
 
     <!-- main -->
     <main class="main" id="main">
-        <!-- about us -->
-        <section class="about">
-            <div class="container">
-                <!-- about up -->
-                <div class="about-contents about-contents-up">
-                    <div class="image-about">
-                        <img src="resources/images/about.jpeg" alt="about Prestige Design image" loading="lazy">
-                    </div>
-                    <div class="about-description light-mode-color">
-                        <span class="section-titles" id="about-up-title">About US</span>
-                        <h2 id="about-up-heading">Creative Solutions <br> by professional designers</h2>
-                        <p class="light-mode-color" id="about-up-description">We are an <strong>interior design
-                                studio</strong> in Muscat, focusing on creating personalized and eco-friendly spaces
-                            that align with
-                            our clients' unique personalities, values, and artistic preferences, promoting a better way
-                            of living.
-                        </p>
-                        <button class="button button-dark ">
-                            <a href="contact.html" id="about-up-button">
-                                Contact Us <!-- <i class="fa fa-arrow-right i-arrow"></i> -->
-                            </a>
-                        </button>
-                    </div>
-                </div>
-                <!-- about down -->
-                <div class="about-contents about-contents-down">
-                    <div class="about-description light-mode-color">
-                        <div class="about-image-des">
-                            <img src="resources/images/navan-logo-dark.png" alt="about image" loading="lazy">
-                        </div>
-                        <p class="light-mode-color" id="about-down-description">At <strong>Prestige Design</strong>, we
-                            view design as a fusion of art, psychology, and biology, drawing inspiration from
-                            Biomimicry. Our
-                            holistic design approach involves deeply understanding our clients' personality, values, and
-                            beliefs to express them
-                            creatively. We use design elements, lighting, sound, and nature to create spaces that engage
-                            all five senses, fostering
-                            happier and healthier living and working environments where cherished memories can be made.
-                        </p>
-                        <h4 id="about-down-name">Majid and Zahra</h4>
-                        <h5 id="about-down-position">Founders</h5>
-                    </div>
-                    <div class="image-about">
-                        <img src="resources/images/about-2.jpeg" alt="about Prestige Design image" loading="lazy">
-
-                    </div>
-                </div>
+      <!-- about us -->
+      <section class="about">
+        <div class="container">
+          <!-- about up -->
+          <div class="about-contents about-contents-up">
+            <div class="image-about">
+              <img
+                src="resources/images/about.jpeg"
+                alt="about Prestige Design image"
+                loading="lazy"
+              />
             </div>
-        </section>
-
-
-        <!-- video player  -->
-        <div class="video">
-            <div class="container">
-                <div class="video-contents">
-                    <video src="" class="video-file" controls poster="resources/images/video-cover.jpeg"></video>
-                    <div>
-                        <i class="fa-regular fa-circle-play"></i>
-                    </div>
-                </div>
-
+            <div class="about-description light-mode-color">
+              <span class="section-titles" id="about-up-title">About US</span>
+              <h2 id="about-up-heading">
+                Creative Solutions <br />
+                by professional designers
+              </h2>
+              <p class="light-mode-color" id="about-up-description">
+                We are an <strong>interior design studio</strong> in Muscat,
+                focusing on creating personalized and eco-friendly spaces that
+                align with our clients' unique personalities, values, and
+                artistic preferences, promoting a better way of living.
+              </p>
+              <button class="button button-dark">
+                <a href="contact.html" id="about-up-button">
+                  Contact Us
+                  <!-- <i class="fa fa-arrow-right i-arrow"></i> -->
+                </a>
+              </button>
             </div>
-        </div>
-
-
-
-
-        <!-- notification -->
-        <div class="notification" id="notification">
-            Your work has been saved
-        </div>
-
-        <div class="shop-notification">
-            Successfully Added
-        </div>
-        <div class="shop-notification-empty">
-            Shopping Basket is empty
-        </div>
-        <!-- shopping cart -->
-        <div class="shopping-cart">
-            <div class="cart-wrapper">
-                <div class="order-now-popup" id="contact-form-wrapper">
-                    <div class="contact-form">
-                        <span>Please fill below form, we will call you as soon as possible</span>
-                        <form id="contact-form"
-                            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse">
-
-                            <input type="text" name="entry.1419853720" placeholder="Subject" class="form-subject"
-                                autocomplete="off" required id="form-subject">
-
-                            <input type="text" name="entry.812101243" placeholder="Name" class="form-name"
-                                autocomplete="off" required id="form-name">
-
-                            <input type="email" name="entry.898897978" placeholder="Email" class="form-email"
-                                autocomplete="off" required id="form-email">
-
-                            <input type="number" name="entry.108053488" placeholder="Phone number" class="form-number"
-                                autocomplete="off" required id="form-phone">
-
-                            <input type="text" name="entry.899080279" placeholder="Address" class="form-address"
-                                autocomplete="off" required id="form-address">
-
-
-                            <textarea name="entry.1285101246" placeholder="Message" required
-                                id="form-message"></textarea>
-                            <div class="shopping-row-wrapper">
-                                <div class="shopping-row shopping-row-header">
-                                    <div>Image</div>
-                                    <div>Collection</div>
-                                    <div>Design </div>
-                                    <div>Color Code</div>
-                                    <div>Quantity</div>
-                                </div>
-                            </div>
-                            <button type="submit" class="button button-dark" id="form-submit">Submit Form</button>
-
-                        </form>
-
-                    </div>
-                </div>
-
-                <i class="fa fa-times"></i>
+          </div>
+          <!-- about down -->
+          <div class="about-contents about-contents-down">
+            <div class="about-description light-mode-color">
+              <div class="about-image-des">
+                <img
+                  src="resources/images/navan-logo-dark.png"
+                  alt="about image"
+                  loading="lazy"
+                />
+              </div>
+              <p class="light-mode-color" id="about-down-description">
+                At <strong>Prestige Design</strong>, we view design as a fusion
+                of art, psychology, and biology, drawing inspiration from
+                Biomimicry. Our holistic design approach involves deeply
+                understanding our clients' personality, values, and beliefs to
+                express them creatively. We use design elements, lighting,
+                sound, and nature to create spaces that engage all five senses,
+                fostering happier and healthier living and working environments
+                where cherished memories can be made.
+              </p>
+              <h4 id="about-down-name">Majid and Zahra</h4>
+              <h5 id="about-down-position">Founders</h5>
             </div>
+            <div class="image-about">
+              <img
+                src="resources/images/about-2.jpeg"
+                alt="about Prestige Design image"
+                loading="lazy"
+              />
+            </div>
+          </div>
         </div>
+      </section>
 
+      <!-- video player  -->
+      <div class="video">
+        <div class="container">
+          <div class="video-contents">
+            <video
+              src=""
+              class="video-file"
+              controls
+              poster="resources/images/video-cover.jpeg"
+            ></video>
+            <div>
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- notification -->
+      <div class="notification" id="notification">Your work has been saved</div>
+
+      <div class="shop-notification">Successfully Added</div>
+      <div class="shop-notification-empty">Shopping Basket is empty</div>
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-wrapper">
+          <div class="order-now-popup" id="contact-form-wrapper">
+            <div class="contact-form">
+              <span
+                >Please fill below form, we will call you as soon as
+                possible</span
+              >
+              <form
+                id="contact-form"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse"
+              >
+                <input
+                  type="text"
+                  name="entry.1419853720"
+                  placeholder="Subject"
+                  class="form-subject"
+                  autocomplete="off"
+                  required
+                  id="form-subject"
+                />
+
+                <input
+                  type="text"
+                  name="entry.812101243"
+                  placeholder="Name"
+                  class="form-name"
+                  autocomplete="off"
+                  required
+                  id="form-name"
+                />
+
+                <input
+                  type="email"
+                  name="entry.898897978"
+                  placeholder="Email"
+                  class="form-email"
+                  autocomplete="off"
+                  required
+                  id="form-email"
+                />
+
+                <input
+                  type="number"
+                  name="entry.108053488"
+                  placeholder="Phone number"
+                  class="form-number"
+                  autocomplete="off"
+                  required
+                  id="form-phone"
+                />
+
+                <input
+                  type="text"
+                  name="entry.899080279"
+                  placeholder="Address"
+                  class="form-address"
+                  autocomplete="off"
+                  required
+                  id="form-address"
+                />
+
+                <textarea
+                  name="entry.1285101246"
+                  placeholder="Message"
+                  required
+                  id="form-message"
+                ></textarea>
+                <div class="shopping-row-wrapper">
+                  <div class="shopping-row shopping-row-header">
+                    <div>Image</div>
+                    <div>Collection</div>
+                    <div>Design</div>
+                    <div>Color Code</div>
+                    <div>Quantity</div>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  class="button button-dark"
+                  id="form-submit"
+                >
+                  Submit Form
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <i class="fa fa-times"></i>
+        </div>
+      </div>
     </main>
 
     <!-- footer -->
     <footer class="footer" id="footer">
-
-        <div class="footer-contents">
-            <!-- footer top -->
-            <div class="footer-top">
-                <div class="about-description light-mode-color">
-                    <span class="section-titles" id="footer-title">you dream it, we design it</span>
-                    <h2 id="footer-heading">We can build you the home of your dreams </h2>
-                    <button class="button button-dark ">
-                        <a href="tel:+96891245348" id="footer-button">
-                            <!-- <i class="fa fa fa-phone i-arrow"></i>  -->schedule a meeting
-                        </a>
-                    </button>
-                </div>
-            </div>
-
-
-            <!-- footer bottom -->
-            <div class="container">
-                <div class="footer-bottom">
-                    <div class="footer-bottom-left">
-                        <div class="logo">
-                            <img src="resources/images/navan-logo-light.png" alt="prestige design logo" loading="lazy">
-                        </div>
-                        <a dir="ltr" href="tel:+96891215078">
-                            <i class="fa fa fa-phone i-arrow"></i> +968 9121 5078
-                        </a>
-                        <a dir="ltr" href="tel:+96891245348">
-                            <i class="fa fa fa-phone i-arrow"></i> +968 9124 5348
-                        </a>
-
-                        <div class="social-media">
-                            <a href="  https://www.instagram.com/oman.prestigedesign">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-
-                            <a href="https://www.youtube.com/@omanfact9331">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-
-                            <a href="https://t.me/+96891245348">
-                                <i class="fab fa-telegram"></i>
-                            </a>
-
-                            <a href="https://wa.me/+96891245348">
-                                <i class="fab fa-whatsapp"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- copyright -->
-            <div class="copyright">
-                <i class="fa fa-copyright"></i> All Right Reserved | Designed by <a href="https://navan.one">NAVAN</a>
-            </div>
-
+      <div class="footer-contents">
+        <!-- footer top -->
+        <div class="footer-top">
+          <div class="about-description light-mode-color">
+            <span class="section-titles" id="footer-title"
+              >you dream it, we design it</span
+            >
+            <h2 id="footer-heading">
+              We can build you the home of your dreams
+            </h2>
+            <button class="button button-dark">
+              <a href="tel:+96891245348" id="footer-button">
+                <!-- <i class="fa fa fa-phone i-arrow"></i>  -->schedule a
+                meeting
+              </a>
+            </button>
+          </div>
         </div>
+
+        <!-- footer bottom -->
+        <div class="container">
+          <div class="footer-bottom">
+            <div class="footer-bottom-left">
+              <div class="logo">
+                <img
+                  src="resources/images/navan-logo-light.png"
+                  alt="prestige design logo"
+                  loading="lazy"
+                />
+              </div>
+              <a dir="ltr" href="tel:+96891215078">
+                <i class="fa fa fa-phone i-arrow"></i> +968 9121 5078
+              </a>
+              <a dir="ltr" href="tel:+96891245348">
+                <i class="fa fa fa-phone i-arrow"></i> +968 9124 5348
+              </a>
+
+              <div class="social-media">
+                <a href="  https://www.instagram.com/oman.prestigedesign">
+                  <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@omanfact9331">
+                  <i class="fab fa-youtube"></i>
+                </a>
+
+                <a href="https://t.me/+96891245348">
+                  <i class="fab fa-telegram"></i>
+                </a>
+
+                <a href="https://wa.me/+96891245348">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="copyright">
+          <i class="fa fa-copyright"></i> All Right Reserved | Designed by
+          <a href="https://navan.one">NAVAN</a>
+        </div>
+      </div>
     </footer>
     <div class="whatsapp">
-        <a href="https://wa.me/+96891245348"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://wa.me/+96891245348"><i class="fab fa-whatsapp"></i></a>
     </div>
     <!-- scripts -->
     <script src="resources/scripts/language-about.js"></script>
@@ -296,7 +392,5 @@
     <script src="resources/scripts/cart.js"></script>
 
     <script src="resources/scripts/burger-menu.js"></script>
-
-</body>
-
+  </body>
 </html>

@@ -1,410 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Discover the art of interior design with Prestige Design. Explore our stunning portfolio, where creativity meets functionality. Let us transform your home into a masterpiece. Contact us today for personalized design consultations.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the art of interior design with Prestige Design. Explore our stunning portfolio, where creativity meets functionality. Let us transform your home into a masterpiece. Contact us today for personalized design consultations."
+    />
     <title>Prestige Design | Collections</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-    <link rel="stylesheet" href="resources/styles/style.css">
+    <link rel="stylesheet" href="resources/styles/style.css" />
+  </head>
 
-</head>
-
-<body class="ligh-mode-color">
+  <body class="ligh-mode-color">
     <!-- header -->
     <header class="header header-contact" id="header">
-        <!-- navbar -->
-        <div class="nav">
-            <div class="container">
-                <div class="nav-contents">
-                    <div class="nav-logo">
-                        <a href="index.html">
-                            <img src="resources/images/navan-logo-dark.png" alt="Prestige Design logo" loading="lazy">
-                        </a>
-                    </div>
-                    <div class="nav-menu">
-                        <ul>
-                            <li><a href="index.html" id="nav-menu-home">Home</a></li>
-                            <li class="dropdown">
-                                <a href="services.html" id="nav-menu-store" class="selected">Services</a>
-                                <div class="dropdown-wrapper">
+      <!-- navbar -->
+      <div class="nav">
+        <div class="container">
+          <div class="nav-contents">
+            <div class="nav-logo">
+              <a href="index.html">
+                <img
+                  src="resources/images/navan-logo-dark.png"
+                  alt="Prestige Design logo"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="nav-menu">
+              <ul>
+                <li><a href="index.html" id="nav-menu-home">Home</a></li>
+                <li class="dropdown">
+                  <a href="services.html" id="nav-menu-store" class="selected"
+                    >Services</a
+                  >
+                  <div class="dropdown-wrapper">
+                    <ul class="services-sub-category">
+                      <li>
+                        <a href="commercial.html">Commercial design</a>
+                      </li>
+                      <li>
+                        <a href="residential.html">Residential design </a>
+                      </li>
+                      <li>
+                        <a href="consultation.html">Furnishing Consultation</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
 
-                                    <ul class="services-sub-category">
-                                        <li>
-                                            <a href="services.html#service-one-heading-head">Commercial design</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html#service-two-heading-head">Residential design
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html#service-three-heading-head">Furnishing Consultation</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
+                <li>
+                  <a href="portfolio.html" id="nav-menu-portfolio">Portfolio</a>
+                </li>
 
-                            <li><a href="portfolio.html" id="nav-menu-portfolio">Portfolio</a></li>
+                <li><a href="shop.html" id="nav-menu-collection">Shop</a></li>
 
-                            <li><a href="shop.html" id="nav-menu-collection">Shop</a></li>
+                <li><a href="about.html" id="nav-menu-about">About</a></li>
 
-                            <li><a href="about.html" id="nav-menu-about">About</a></li>
-
-
-
-
-                            <li><a href="contact.html" id="nav-menu-contact">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="nav-icons">
-                        <div class="languages" id="language-toggeler">
-                            <span id="en-language">EN</span>
-                            <span id="ar-language">AR</span>
-                        </div>
-                        <!-- <div class="theme-mode">
+                <li>
+                  <a href="contact.html" id="nav-menu-contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-icons">
+              <div class="languages" id="language-toggeler">
+                <span id="en-language">EN</span>
+                <span id="ar-language">AR</span>
+              </div>
+              <!-- <div class="theme-mode">
                                                 <i class="fa fa-moon"></i>
                                                 <i class="fa fa-sun"></i>
                                             </div> -->
-                        <div class="nav-cart">
-                            <i class="fa fa-shopping-cart">
-                                <i class="fa fa-info-circle"></i>
-                            </i>
-                        </div>
-                        <div class="nav-burger-menu" id="nav-burger-menu">
-                            <i class="fa fa-bars"></i>
-                            <div class="burger-menu">
-                                <i class="fa fa-times"></i>
-                                <ul>
-                                    <li><a href="index.html" id="nav-menu-home-burger">Home</a></li>
-                                    <li><a href="services.html" id="nav-menu-store-burger" class="selected">Services</a>
+              <div class="nav-cart">
+                <i class="fa fa-shopping-cart">
+                  <i class="fa fa-info-circle"></i>
+                </i>
+              </div>
+              <div class="nav-burger-menu" id="nav-burger-menu">
+                <i class="fa fa-bars"></i>
+                <div class="burger-menu">
+                  <i class="fa fa-times"></i>
+                  <ul>
+                    <li>
+                      <a href="index.html" id="nav-menu-home-burger">Home</a>
+                    </li>
+                    <li>
+                      <a
+                        href="services.html"
+                        id="nav-menu-store-burger"
+                        class="selected"
+                        >Services</a
+                      >
+                    </li>
 
-                                    <li><a href="portfolio.html" id="nav-menu-portfolio-burger">Portfolio</a>
-                                    <li><a href="shop.html" id="nav-menu-collection-burger">Shop</a>
+                    <li>
+                      <a href="portfolio.html" id="nav-menu-portfolio-burger"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li>
+                      <a href="shop.html" id="nav-menu-collection-burger"
+                        >Shop</a
+                      >
+                    </li>
 
-
-                                    <li><a href="about.html" id="nav-menu-about-burger">About</a>
-                                    </li>
-                                    </li>
-                                    </li>
-                                    <li><a href="contact.html" id="nav-menu-contact-burger">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    <li>
+                      <a href="about.html" id="nav-menu-about-burger">About</a>
+                    </li>
+                    <li>
+                      <a href="contact.html" id="nav-menu-contact-burger"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- hero -->
-        <div class="hero">
-            <div class="container">
-                <div class="hero-contents dark-mode-color">
-                    <h1 id="hero-heading-collection">Services</h1>
-                </div>
-            </div>
+      <!-- hero -->
+      <div class="hero">
+        <div class="container">
+          <div class="hero-contents dark-mode-color">
+            <h1 id="hero-heading-collection">Services</h1>
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- main -->
     <main class="main-collection" id="main-collection">
-
-
-        <!-- video player  -->
-        <div class="video">
-            <div class="container">
-                <div class="video-contents">
-                    <video src="" class="video-file" controls poster="resources/images/video-cover.jpeg"></video>
-                    <div>
-                        <i class="fa-regular fa-circle-play"></i>
-                    </div>
-                </div>
-
+      <!-- video player  -->
+      <div class="video">
+        <div class="container">
+          <div class="video-contents">
+            <video
+              src=""
+              class="video-file"
+              controls
+              poster="resources/images/video-cover.jpeg"
+            ></video>
+            <div>
+              <i class="fa-regular fa-circle-play"></i>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- services -->
-        <div class="services">
-            <div class="container ">
-                <div class="services-contents">
-
-                    <div class="services-title">
-                        <span class="section-titles" id="services-title">Our services</span>
-                        <h4 id="services-heading">We provide more than just quality services</h4>
-                        <button class="button button-primary">
-                            <a href="shop.html" id="services-button">Go to Collections</a>
-                            <!-- <i class="fa fa-arrow-right i-arrow"></i> -->
-                        </button>
-                    </div>
-
-                    <div class="services-description" id="service-one-heading-head">
-
-                        <!-- single service -->
-                        <div class="single-services" >
-                            <div class="service-icon-title">
-                                <img src="resources/images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-6.jpg"
-                                    class="services-icon" alt="Commercial design and fit out">
-                                <!-- <i class="fa fa-drafting-compass"></i> -->
-                                <h5 class="service-title" id="service-one-heading">Commercial design and fit out</h5>
-                            </div>
-                            <p id="service-one-description"><strong>Offices</strong> Your office is where you conduct
-                                business negotiations and sign important contracts.
-                                Effective and creative design to increase your business efficiency makes it easy for you
-                                to go on.
-                                Designing your office with us will create a masterpiece that will impress your business
-                                partners.
-                                Do not miss the opportunity to change your business efficiency, so contact us now.
-                                <br>
-                                <strong>Shops</strong> Transform Your Retail and Showroom with our Expert Designing and
-                                Furniture Solutions, elevate your space and
-                                captivate customers with our innovative designs tailored to your unique needs.
-                                Our team of experienced professionals will work closely with you to create a showroom
-                                that combines style,
-                                functionality, and seamless customer experience.
-                                From elegant displays to ergonomic furniture, we offer comprehensive solutions that
-                                enhance your brand image and boost
-                                sales. Don’t miss this opportunity! Fill out the form on our website now to take your
-                                showroom to the next level.
-                                Let’s create a stunning retail space together!
-
-                            </p>
-                        </div>
-
-
-                        <!-- single service -->
-                        <div class="single-services" id="service-two-heading-head">
-                            <div class="service-icon-title">
-                                <!-- <i class="fa fa-warehouse"></i> -->
-                                <img src="resources/images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-1.jpg"
-                                    class="services-icon" alt="Commercial design and fit out">
-                                <h5 class="service-title" id="service-two-heading">Residencial design and fit out
-                                    Interior</h5>
-                            </div>
-                            <p id="service-two-description">design is a harmonious blend of artistry and scientific
-                                principles, aimed at elevating the interior spaces of a
-                                structure. Interior design and interior decoration primarily revolve around optimizing
-                                the aesthetics and functionality
-                                of the Interior design to enhance our overall experience within those spaces. By
-                                skilfully crafting effective Interior
-                                design and interior decoration, we create environments that provide comfort in homes.
-                            </p>
-                        </div>
-
-
-                        <!-- single service -->
-                        <div class="single-services"  id="service-three-heading-head">
-                            <div class="service-icon-title">
-                                <!-- <i class="fa fa-couch"></i> -->
-                                <img src="resources/images/Portfolio/Commercial/offices/International-Trading/international-trading-5.jpg"
-                                    class="services-icon" alt="Commercial design and fit out">
-                                <h5 class="service-title" id="service-three-heading">Furnishing Consultation</h5>
-                            </div>
-                            <p id="service-three-description">Professional budgeting according to your priorities to
-                                furnish your office or home is the most important step in
-                                furnishing. Our designers, with years of experience in this matter, provide you with the
-                                best and most specialized
-                                services from consultation to implementation.
-                                The satisfaction of our customers at the end of the projects carried out over the years
-                                reminds us that the project
-                                furnishing management by us will not only cost you more than what you have planned, but
-                                also professional and effective
-                                arrangement with the most up-to-date The science of interior design will captivate you
-                                in the end.
-                            </p>
-                        </div>
-
-
-                    </div>
-                </div>
+      <!-- services -->
+      <div class="services">
+        <div class="container">
+          <div class="services-contents">
+            <div class="services-title">
+              <span class="section-titles" id="services-title"
+                >Our services</span
+              >
+              <h4 id="services-heading">
+                We provide more than just quality services
+              </h4>
+              <button class="button button-primary">
+                <a href="shop.html" id="services-button">Go to Collections</a>
+                <!-- <i class="fa fa-arrow-right i-arrow"></i> -->
+              </button>
             </div>
-        </div>
 
-        <!-- how we work -->
-        <div class="work">
-            <div class="container">
-                <div class="work-contents">
-
-                    <div class="work-top">
-                        <span class="section-titles" id="work-title">how we work</span>
-                        <h6 id="work-heading">3 Easy steps to get interior design
-                        </h6>
-                        <p id="work-description">The of your kitchen varies from one layout to another. The shape of the
-                            kitchen also
-                            determines the and space for
-                            cabinets, countertops, and accessories.
-                        </p>
-                    </div>
-
-                    <div class="work-bottom" id="single-work-image">
-
-                        <div class="single-work" id="single-work-one">
-                            <span>01</span>
-                            <h5 id="work-inner-one-heading">Site Visiting</h5>
-                            <p id="work-inner-one-description">In the first step, while visiting your site, we review
-                                all the details of the project with the design team.</p>
-                        </div>
-
-                        <div class="single-work" id="single-work-two">
-                            <span>02</span>
-                            <h5 id="work-inner-two-heading">Designing</h5>
-                            <p id="work-inner-two-description">At this stage, which is after the conclusion of the
-                                contract, the 3D design is done by our professional design group and
-                                presented to you for approval.
-                            </p>
-                        </div>
-
-                        <div class="single-work" id="single-work-three">
-                            <span>03</span>
-                            <h5 id="work-inner-three-heading">Fit Out</h5>
-                            <p id="work-inner-three-description">The approved plan will be sent to the implementation
-                                department and your project will be implemented with the material
-                                analysis table and schedule.</p>
-                        </div>
-
-                    </div>
+            <div class="services-description" id="service-one-heading-head">
+              <!-- single service -->
+              <div class="single-services">
+                <div class="service-icon-title">
+                  <img
+                    src="resources/images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-6.jpg"
+                    class="services-icon"
+                    alt="Commercial design and fit out"
+                  />
+                  <!-- <i class="fa fa-drafting-compass"></i> -->
+                  <h5 class="service-title" id="service-one-heading">
+                    Commercial design and fit out
+                  </h5>
                 </div>
+                <p id="service-one-description">
+                  <strong>Offices</strong> Your office is where you conduct
+                  business negotiations and sign important contracts. Effective
+                  and creative design to increase your business efficiency makes
+                  it easy for you to go on. Designing your office with us will
+                  create a masterpiece that will impress your business partners.
+                  Do not miss the opportunity to change your business
+                  efficiency, so contact us now.
+                  <br />
+                  <strong>Shops</strong> Transform Your Retail and Showroom with
+                  our Expert Designing and Furniture Solutions, elevate your
+                  space and captivate customers with our innovative designs
+                  tailored to your unique needs. Our team of experienced
+                  professionals will work closely with you to create a showroom
+                  that combines style, functionality, and seamless customer
+                  experience. From elegant displays to ergonomic furniture, we
+                  offer comprehensive solutions that enhance your brand image
+                  and boost sales. Don’t miss this opportunity! Fill out the
+                  form on our website now to take your showroom to the next
+                  level. Let’s create a stunning retail space together!
+                </p>
+              </div>
+
+              <!-- single service -->
+              <div class="single-services" id="service-two-heading-head">
+                <div class="service-icon-title">
+                  <!-- <i class="fa fa-warehouse"></i> -->
+                  <img
+                    src="resources/images/Portfolio/Commercial/Salon-Clinic/Ariana-Clinic/ariana-clinic-1.jpg"
+                    class="services-icon"
+                    alt="Commercial design and fit out"
+                  />
+                  <h5 class="service-title" id="service-two-heading">
+                    Residencial design and fit out Interior
+                  </h5>
+                </div>
+                <p id="service-two-description">
+                  design is a harmonious blend of artistry and scientific
+                  principles, aimed at elevating the interior spaces of a
+                  structure. Interior design and interior decoration primarily
+                  revolve around optimizing the aesthetics and functionality of
+                  the Interior design to enhance our overall experience within
+                  those spaces. By skilfully crafting effective Interior design
+                  and interior decoration, we create environments that provide
+                  comfort in homes.
+                </p>
+              </div>
+
+              <!-- single service -->
+              <div class="single-services" id="service-three-heading-head">
+                <div class="service-icon-title">
+                  <!-- <i class="fa fa-couch"></i> -->
+                  <img
+                    src="resources/images/Portfolio/Commercial/offices/International-Trading/international-trading-5.jpg"
+                    class="services-icon"
+                    alt="Commercial design and fit out"
+                  />
+                  <h5 class="service-title" id="service-three-heading">
+                    Furnishing Consultation
+                  </h5>
+                </div>
+                <p id="service-three-description">
+                  Professional budgeting according to your priorities to furnish
+                  your office or home is the most important step in furnishing.
+                  Our designers, with years of experience in this matter,
+                  provide you with the best and most specialized services from
+                  consultation to implementation. The satisfaction of our
+                  customers at the end of the projects carried out over the
+                  years reminds us that the project furnishing management by us
+                  will not only cost you more than what you have planned, but
+                  also professional and effective arrangement with the most
+                  up-to-date The science of interior design will captivate you
+                  in the end.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- notification -->
-        <div class="notification" id="notification">
-            Your work has been saved
+      <!-- how we work -->
+      <div class="work">
+        <div class="container">
+          <div class="work-contents">
+            <div class="work-top">
+              <span class="section-titles" id="work-title">how we work</span>
+              <h6 id="work-heading">3 Easy steps to get interior design</h6>
+              <p id="work-description">
+                The of your kitchen varies from one layout to another. The shape
+                of the kitchen also determines the and space for cabinets,
+                countertops, and accessories.
+              </p>
+            </div>
+
+            <div class="work-bottom" id="single-work-image">
+              <div class="single-work" id="single-work-one">
+                <span>01</span>
+                <h5 id="work-inner-one-heading">Site Visiting</h5>
+                <p id="work-inner-one-description">
+                  In the first step, while visiting your site, we review all the
+                  details of the project with the design team.
+                </p>
+              </div>
+
+              <div class="single-work" id="single-work-two">
+                <span>02</span>
+                <h5 id="work-inner-two-heading">Designing</h5>
+                <p id="work-inner-two-description">
+                  At this stage, which is after the conclusion of the contract,
+                  the 3D design is done by our professional design group and
+                  presented to you for approval.
+                </p>
+              </div>
+
+              <div class="single-work" id="single-work-three">
+                <span>03</span>
+                <h5 id="work-inner-three-heading">Fit Out</h5>
+                <p id="work-inner-three-description">
+                  The approved plan will be sent to the implementation
+                  department and your project will be implemented with the
+                  material analysis table and schedule.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="shop-notification">
-            Successfully Added
-        </div>
-        <div class="shop-notification-empty">
-            Shopping Basket is empty
-        </div>
-        <!-- shopping cart -->
-        <div class="shopping-cart">
-            <div class="cart-wrapper">
-                <div class="order-now-popup" id="contact-form-wrapper">
-                    <div class="contact-form">
-                        <span>Please fill below form, we will call you as soon as possible</span>
-                        <form id="contact-form"
-                            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse">
+      <!-- notification -->
+      <div class="notification" id="notification">Your work has been saved</div>
 
-                            <input type="text" name="entry.1419853720" placeholder="Subject" class="form-subject"
-                                autocomplete="off" required id="form-subject">
+      <div class="shop-notification">Successfully Added</div>
+      <div class="shop-notification-empty">Shopping Basket is empty</div>
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-wrapper">
+          <div class="order-now-popup" id="contact-form-wrapper">
+            <div class="contact-form">
+              <span
+                >Please fill below form, we will call you as soon as
+                possible</span
+              >
+              <form
+                id="contact-form"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse"
+              >
+                <input
+                  type="text"
+                  name="entry.1419853720"
+                  placeholder="Subject"
+                  class="form-subject"
+                  autocomplete="off"
+                  required
+                  id="form-subject"
+                />
 
-                            <input type="text" name="entry.812101243" placeholder="Name" class="form-name"
-                                autocomplete="off" required id="form-name">
+                <input
+                  type="text"
+                  name="entry.812101243"
+                  placeholder="Name"
+                  class="form-name"
+                  autocomplete="off"
+                  required
+                  id="form-name"
+                />
 
-                            <input type="email" name="entry.898897978" placeholder="Email" class="form-email"
-                                autocomplete="off" required id="form-email">
+                <input
+                  type="email"
+                  name="entry.898897978"
+                  placeholder="Email"
+                  class="form-email"
+                  autocomplete="off"
+                  required
+                  id="form-email"
+                />
 
-                            <input type="number" name="entry.108053488" placeholder="Phone number" class="form-number"
-                                autocomplete="off" required id="form-phone">
+                <input
+                  type="number"
+                  name="entry.108053488"
+                  placeholder="Phone number"
+                  class="form-number"
+                  autocomplete="off"
+                  required
+                  id="form-phone"
+                />
 
-                            <input type="text" name="entry.899080279" placeholder="Address" class="form-address"
-                                autocomplete="off" required id="form-address">
+                <input
+                  type="text"
+                  name="entry.899080279"
+                  placeholder="Address"
+                  class="form-address"
+                  autocomplete="off"
+                  required
+                  id="form-address"
+                />
 
-
-                            <textarea name="entry.1285101246" placeholder="Message" required
-                                id="form-message"></textarea>
-                            <div class="shopping-row-wrapper">
-                                <div class="shopping-row shopping-row-header">
-                                    <div>Image</div>
-                                    <div>Collection</div>
-                                    <div>Design </div>
-                                    <div>Color Code</div>
-                                    <div>Quantity</div>
-                                </div>
-                            </div>
-                            <button type="submit" class="button button-dark" id="form-submit">Submit Form</button>
-
-                        </form>
-
-                    </div>
-                </div>
+                <textarea
+                  name="entry.1285101246"
+                  placeholder="Message"
+                  required
+                  id="form-message"
+                ></textarea>
                 <div class="shopping-row-wrapper">
-                    <!-- <div class="shopping-row shopping-row-header">
+                  <div class="shopping-row shopping-row-header">
+                    <div>Image</div>
+                    <div>Collection</div>
+                    <div>Design</div>
+                    <div>Color Code</div>
+                    <div>Quantity</div>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  class="button button-dark"
+                  id="form-submit"
+                >
+                  Submit Form
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="shopping-row-wrapper">
+            <!-- <div class="shopping-row shopping-row-header">
                             <div>Image</div>
                             <div>Collection</div>
                             <div>Design </div>
                             <div>Color Code</div>
                             <div>Quantity</div>
                         </div> -->
-                </div>
-                <i class="fa fa-times"></i>
-            </div>
+          </div>
+          <i class="fa fa-times"></i>
         </div>
-
+      </div>
     </main>
 
     <!-- footer -->
     <footer class="footer" id="footer">
-
-        <div class="footer-contents">
-            <!-- footer top -->
-            <div class="footer-top">
-                <div class="about-description light-mode-color">
-                    <span class="section-titles" id="footer-title">you dream it, we design it</span>
-                    <h2 id="footer-heading">We can build you the home of your dreams </h2>
-                    <button class="button button-dark ">
-                        <a href="tel:+96891245348" id="footer-button">
-                            <!-- <i class="fa fa fa-phone i-arrow"></i>  -->schedule a meeting
-                        </a>
-                    </button>
-                </div>
-            </div>
-
-
-            <!-- footer bottom -->
-            <div class="container">
-                <div class="footer-bottom">
-                    <div class="footer-bottom-left">
-
-                        <div class="logo">
-                            <img src="resources/images/navan-logo-light.png" alt="Navan logo">
-                        </div>
-                        <a dir="ltr" href="tel:+96891245348">
-                            <i class="fa fa fa-phone i-arrow"></i> +968 9124 5348
-                        </a>
-
-                        <a dir="ltr" href="tel:+96891215078">
-                            <i class="fa fa fa-phone i-arrow"></i> +968 9121 5078
-                        </a>
-
-                        <div class="social-media">
-                            <a href="  https://www.instagram.com/oman.prestigedesign">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-
-                            <a href="https://www.youtube.com/@omanfact9331">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-
-                            <a href="https://t.me/+96891245348">
-                                <i class="fab fa-telegram"></i>
-                            </a>
-
-                            <a href="https://wa.me/+96891245348">
-                                <i class="fab fa-whatsapp"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- copyright -->
-            <div class="copyright">
-                <i class="fa fa-copyright"></i> All Right Reserved | Designed by <a href="https://navan.one">NAVAN</a>
-            </div>
-
+      <div class="footer-contents">
+        <!-- footer top -->
+        <div class="footer-top">
+          <div class="about-description light-mode-color">
+            <span class="section-titles" id="footer-title"
+              >you dream it, we design it</span
+            >
+            <h2 id="footer-heading">
+              We can build you the home of your dreams
+            </h2>
+            <button class="button button-dark">
+              <a href="tel:+96891245348" id="footer-button">
+                <!-- <i class="fa fa fa-phone i-arrow"></i>  -->schedule a
+                meeting
+              </a>
+            </button>
+          </div>
         </div>
+
+        <!-- footer bottom -->
+        <div class="container">
+          <div class="footer-bottom">
+            <div class="footer-bottom-left">
+              <div class="logo">
+                <img
+                  src="resources/images/navan-logo-light.png"
+                  alt="Navan logo"
+                />
+              </div>
+              <a dir="ltr" href="tel:+96891245348">
+                <i class="fa fa fa-phone i-arrow"></i> +968 9124 5348
+              </a>
+
+              <a dir="ltr" href="tel:+96891215078">
+                <i class="fa fa fa-phone i-arrow"></i> +968 9121 5078
+              </a>
+
+              <div class="social-media">
+                <a href="  https://www.instagram.com/oman.prestigedesign">
+                  <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@omanfact9331">
+                  <i class="fab fa-youtube"></i>
+                </a>
+
+                <a href="https://t.me/+96891245348">
+                  <i class="fab fa-telegram"></i>
+                </a>
+
+                <a href="https://wa.me/+96891245348">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="copyright">
+          <i class="fa fa-copyright"></i> All Right Reserved | Designed by
+          <a href="https://navan.one">NAVAN</a>
+        </div>
+      </div>
     </footer>
 
-
     <div class="whatsapp">
-        <a href="https://wa.me/+96891245348"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://wa.me/+96891245348"><i class="fab fa-whatsapp"></i></a>
     </div>
 
     <!-- <script src="resources/scripts/language-shop.js"></script> -->
@@ -412,7 +498,5 @@
     <script src="resources/scripts/work.js"></script>
     <script src="resources/scripts/language-services.js"></script>
     <script src="resources/scripts/cart.js"></script>
-
-</body>
-
+  </body>
 </html>

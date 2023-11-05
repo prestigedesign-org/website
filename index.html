@@ -1,265 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the art of interior design with Prestige Design. Explore our stunning portfolio, where creativity meets functionality. Let us transform your home into a masterpiece. Contact us today for personalized design consultations."
+    />
+    <title>
+      Prestige Design | Elevate Your Living Spaces with Inspired Interior Design
+    </title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Discover the art of interior design with Prestige Design. Explore our stunning portfolio, where creativity meets functionality. Let us transform your home into a masterpiece. Contact us today for personalized design consultations.">
-    <title>Prestige Design | Elevate Your Living Spaces with Inspired Interior Design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="resources/styles/style.css" />
+  </head>
 
-    <link rel="stylesheet" href="resources/styles/style.css">
-</head>
-
-<body class="ligh-mode-color">
+  <body class="ligh-mode-color">
     <!-- header -->
     <header class="header-index" id="header-index">
+      <!-- navbar -->
+      <div class="nav">
+        <div class="container">
+          <div class="nav-contents">
+            <div class="nav-logo">
+              <a href="index.html">
+                <img
+                  src="resources/images/navan-logo-light.png"
+                  alt="Prestige Design logo"
+                  loading="lazy"
+                />
+              </a>
+            </div>
 
-        <!-- navbar -->
-        <div class="nav">
-            <div class="container">
-                <div class="nav-contents">
-                    <div class="nav-logo">
-                        <a href="index.html">
-                            <img src="resources/images/navan-logo-light.png" alt="Prestige Design logo" loading="lazy">
-                        </a>
-                    </div>
+            <div class="nav-menu">
+              <ul>
+                <li>
+                  <a href="index.html" id="nav-menu-home" class="selected"
+                    >Home</a
+                  >
+                </li>
 
-                    <div class="nav-menu">
-                        <ul>
-                            <li><a href="index.html" id="nav-menu-home" class="selected">Home</a></li>
+                <li class="dropdown">
+                  <a href="services.html" id="nav-menu-store">Services</a>
+                  <div class="dropdown-wrapper">
+                    <ul class="services-sub-category">
+                      <li>
+                        <a href="commercial.html">Commercial design</a>
+                      </li>
+                      <li>
+                        <a href="residential.html">Residential design </a>
+                      </li>
+                      <li>
+                        <a href="consultation.html">Furnishing Consultation</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
 
-                            <li class="dropdown">
-                                <a href="services.html" id="nav-menu-store">Services</a>
-                                <div class="dropdown-wrapper">
+                <li>
+                  <a href="portfolio.html" id="nav-menu-portfolio">Portfolio</a>
+                </li>
+                <li><a href="shop.html" id="nav-menu-collection">Shop</a></li>
 
-                                    <ul class="services-sub-category">
-                                        <li>
-                                            <a href="services.html#service-one-heading">Commercial design</a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html#service-two-heading">Residential design
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="services.html#service-three-heading">Furnishing Consultation</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
+                <li><a href="about.html" id="nav-menu-about">About</a></li>
 
-                            <li><a href="portfolio.html" id="nav-menu-portfolio">Portfolio</a></li>
-                            <li><a href="shop.html" id="nav-menu-collection">Shop</a></li>
+                <li>
+                  <a href="contact.html" id="nav-menu-contact">Contact</a>
+                </li>
+              </ul>
+            </div>
 
-
-                            <li><a href="about.html" id="nav-menu-about">About</a></li>
-
-
-
-
-                            <li><a href="contact.html" id="nav-menu-contact">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="nav-icons">
-                        <div class="languages" id="language-toggeler">
-                            <span id="en-language">EN</span>
-                            <span id="ar-language">AR</span>
-                        </div>
-                        <!-- <div class="theme-mode">
+            <div class="nav-icons">
+              <div class="languages" id="language-toggeler">
+                <span id="en-language">EN</span>
+                <span id="ar-language">AR</span>
+              </div>
+              <!-- <div class="theme-mode">
                                 <i class="fa fa-moon"></i>
                                 <i class="fa fa-sun"></i>
                             </div> -->
-                        <div class="nav-cart">
-                            <i class="fa fa-shopping-cart">
-                                <i class="fa fa-info-circle"></i>
-                            </i>
-                        </div>
-                        <div class="nav-burger-menu" id="nav-burger-menu">
-                            <i class="fa fa-bars"></i>
-                            <div class="burger-menu">
-                                <i class="fa fa-times"></i>
-                                <ul>
-                                    <li><a href="index.html" id="nav-menu-home-burger" class="selected">Home</a></li>
-                                    <li><a href="services.html" id="nav-menu-store-burger">Services</a></li>
+              <div class="nav-cart">
+                <i class="fa fa-shopping-cart">
+                  <i class="fa fa-info-circle"></i>
+                </i>
+              </div>
+              <div class="nav-burger-menu" id="nav-burger-menu">
+                <i class="fa fa-bars"></i>
+                <div class="burger-menu">
+                  <i class="fa fa-times"></i>
+                  <ul>
+                    <li>
+                      <a
+                        href="index.html"
+                        id="nav-menu-home-burger"
+                        class="selected"
+                        >Home</a
+                      >
+                    </li>
+                    <li>
+                      <a href="services.html" id="nav-menu-store-burger"
+                        >Services</a
+                      >
+                    </li>
 
-                                    <li><a href="portfolio.html" id="nav-menu-portfolio-burger">Portfolio</a>
-                                    <li><a href="shop.html" id="nav-menu-collection-burger">Shop</a></li>
+                    <li>
+                      <a href="portfolio.html" id="nav-menu-portfolio-burger"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li>
+                      <a href="shop.html" id="nav-menu-collection-burger"
+                        >Shop</a
+                      >
+                    </li>
 
-
-                                    <li><a href="about.html" id="nav-menu-about-burger">About</a>
-                                    </li>
-                                    <li><a href="contact.html" id="nav-menu-contact-burger">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    <li>
+                      <a href="about.html" id="nav-menu-about-burger">About</a>
+                    </li>
+                    <li>
+                      <a href="contact.html" id="nav-menu-contact-burger"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-
-
-        <section class="slider">
-            <div class="background active">
-                <div class='overlay'>
-                    <span id="slogan-one">
-                        <h1>Prestige Design</h1>
-                    </span>
-                    <div class="collection-filter">
-                        <div class="sub-services shop-filter">
-                            <h3>Services</h3>
-                            <a href="services.html" class="category-link"></a>
-                        </div>
-                        <div class="sub-shop shop-filter">
-                            <h3>Online Shop</h3>
-                            <a href="shop.html" class="category-link"></a>
-                        </div>
-                        <div class="sub-portfolio shop-filter">
-                            <h3>Portfolio</h3>
-                            <a href="portfolio.html" class="category-link"></a>
-
-                        </div>
-                    </div>
-                    <p>Where Elegance Meets Innovation</p>
-
-                </div>
+      <section class="slider">
+        <div class="background active">
+          <div class="overlay">
+            <span id="slogan-one">
+              <h1>Prestige Design</h1>
+            </span>
+            <div class="collection-filter">
+              <div class="sub-services shop-filter">
+                <h3>Services</h3>
+                <a href="services.html" class="category-link"></a>
+              </div>
+              <div class="sub-shop shop-filter">
+                <h3>Online Shop</h3>
+                <a href="shop.html" class="category-link"></a>
+              </div>
+              <div class="sub-portfolio shop-filter">
+                <h3>Portfolio</h3>
+                <a href="portfolio.html" class="category-link"></a>
+              </div>
             </div>
-            <div class="background">
-                <div class='overlay'>
-                    <span id="slogan-two">Services</span>
-                    <div class="collection-filter">
-                        <div class="sub-commercial shop-filter">
-                            <h3>commercial design</h3>
-                            <a href="services.html#service-one-heading-head" class="category-link"></a>
-
-                        </div>
-                        <div class="sub-residential shop-filter">
-                            <h3>residential design</h3>
-                            <a href="services.html#service-two-heading-head" class="category-link"></a>
-
-
-                        </div>
-                        <div class="sub-furnishing shop-filter">
-                            <h3>furnishing consultation</h3>
-                            <a href="services.html#service-three-heading-head" class="category-link"></a>
-
-                        </div>
-                    </div>
-                </div>
+            <p>Where Elegance Meets Innovation</p>
+          </div>
+        </div>
+        <div class="background">
+          <div class="overlay">
+            <span id="slogan-two">Services</span>
+            <div class="collection-filter">
+              <div class="sub-commercial shop-filter">
+                <h3>commercial design</h3>
+                <a
+                  href="services.html#service-one-heading-head"
+                  class="category-link"
+                ></a>
+              </div>
+              <div class="sub-residential shop-filter">
+                <h3>residential design</h3>
+                <a
+                  href="services.html#service-two-heading-head"
+                  class="category-link"
+                ></a>
+              </div>
+              <div class="sub-furnishing shop-filter">
+                <h3>furnishing consultation</h3>
+                <a
+                  href="services.html#service-three-heading-head"
+                  class="category-link"
+                ></a>
+              </div>
             </div>
-            <div class="background">
-                <div class='overlay'>
-                    <span id="slogan-three">Online Store</span>
-                    <div class="collection-filter">
-                        <div class="sub-wallpaper shop-filter">
-                            <h3>wallpapers</h3>
-                            <a href="shop.html" class="category-link"></a>
-
-                        </div>
-                        <div class="sub-decorative shop-filter">
-                            <h3>decoratives</h3>
-                            <a href="shop.html" class="category-link"></a>
-
-
-                        </div>
-                        <div class="sub-posters shop-filter">
-                            <h3>posters</h3>
-                            <a href="shop.html" class="category-link"></a>
-
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="background">
+          <div class="overlay">
+            <span id="slogan-three">Online Store</span>
+            <div class="collection-filter">
+              <div class="sub-wallpaper shop-filter">
+                <h3>wallpapers</h3>
+                <a href="shop.html" class="category-link"></a>
+              </div>
+              <div class="sub-decorative shop-filter">
+                <h3>decoratives</h3>
+                <a href="shop.html" class="category-link"></a>
+              </div>
+              <div class="sub-posters shop-filter">
+                <h3>posters</h3>
+                <a href="shop.html" class="category-link"></a>
+              </div>
             </div>
-            <div class="background">
-                <div class='overlay'>
-                    <span id="slogan-four">Portfolio</span>
-                    <div class="collection-filter">
-                        <div class="sub-commercial-port shop-filter">
-                            <h3>Commercial</h3>
-                            <a href="portfolio.html" class="category-link"></a>
-
-                        </div>
-                        <div class="sub-residential-port shop-filter">
-                            <h3>Residential</h3>
-                            <a href="portfolio.html" class="category-link"></a>
-
-
-                        </div>
-                        <div class="sub-office-port shop-filter">
-                            <h3>Office</h3>
-                            <a href="portfolio.html" class="category-link"></a>
-
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="background">
+          <div class="overlay">
+            <span id="slogan-four">Portfolio</span>
+            <div class="collection-filter">
+              <div class="sub-commercial-port shop-filter">
+                <h3>Commercial</h3>
+                <a href="portfolio.html" class="category-link"></a>
+              </div>
+              <div class="sub-residential-port shop-filter">
+                <h3>Residential</h3>
+                <a href="portfolio.html" class="category-link"></a>
+              </div>
+              <div class="sub-office-port shop-filter">
+                <h3>Office</h3>
+                <a href="portfolio.html" class="category-link"></a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </header>
 
     <main>
-        <!-- notification -->
-        <div class="notification" id="notification">
-        </div>
+      <!-- notification -->
+      <div class="notification" id="notification"></div>
 
-        <div class="shop-notification">
-            Successfully Added
-        </div>
-        <div class="shop-notification-empty">
-            Shopping Basket is empty
-        </div>
-        <!-- shopping cart -->
-        <div class="shopping-cart">
-            <div class="cart-wrapper">
-                <div class="order-now-popup" id="contact-form-wrapper">
-                    <div class="contact-form">
-                        <span>Please fill below form, we will call you as soon as possible</span>
-                        <form id="contact-form"
-                            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse">
+      <div class="shop-notification">Successfully Added</div>
+      <div class="shop-notification-empty">Shopping Basket is empty</div>
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-wrapper">
+          <div class="order-now-popup" id="contact-form-wrapper">
+            <div class="contact-form">
+              <span
+                >Please fill below form, we will call you as soon as
+                possible</span
+              >
+              <form
+                id="contact-form"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebSbKhwKisWt0WlAXNq-HgRUHua50i-xytA-ekNkzjLsTymg/formResponse"
+              >
+                <input
+                  type="text"
+                  name="entry.1419853720"
+                  placeholder="Subject"
+                  class="form-subject"
+                  autocomplete="off"
+                  required
+                  id="form-subject"
+                />
 
-                            <input type="text" name="entry.1419853720" placeholder="Subject" class="form-subject"
-                                autocomplete="off" required id="form-subject">
+                <input
+                  type="text"
+                  name="entry.812101243"
+                  placeholder="Name"
+                  class="form-name"
+                  autocomplete="off"
+                  required
+                  id="form-name"
+                />
 
-                            <input type="text" name="entry.812101243" placeholder="Name" class="form-name"
-                                autocomplete="off" required id="form-name">
+                <input
+                  type="email"
+                  name="entry.898897978"
+                  placeholder="Email"
+                  class="form-email"
+                  autocomplete="off"
+                  required
+                  id="form-email"
+                />
 
-                            <input type="email" name="entry.898897978" placeholder="Email" class="form-email"
-                                autocomplete="off" required id="form-email">
+                <input
+                  type="number"
+                  name="entry.108053488"
+                  placeholder="Phone number"
+                  class="form-number"
+                  autocomplete="off"
+                  required
+                  id="form-phone"
+                />
 
-                            <input type="number" name="entry.108053488" placeholder="Phone number" class="form-number"
-                                autocomplete="off" required id="form-phone">
+                <input
+                  type="text"
+                  name="entry.899080279"
+                  placeholder="Address"
+                  class="form-address"
+                  autocomplete="off"
+                  required
+                  id="form-address"
+                />
 
-                            <input type="text" name="entry.899080279" placeholder="Address" class="form-address"
-                                autocomplete="off" required id="form-address">
-
-
-                            <textarea name="entry.1285101246" placeholder="Message" required
-                                id="form-message"></textarea>
-                            <div class="shopping-row-wrapper">
-                                <div class="shopping-row shopping-row-header">
-                                    <div>Image</div>
-                                    <div>Collection</div>
-                                    <div>Design </div>
-                                    <div>Color Code</div>
-                                    <div>Quantity</div>
-                                </div>
-                            </div>
-                            <button type="submit" class="button button-dark" id="form-submit">Submit Form</button>
-
-                        </form>
-
-                    </div>
+                <textarea
+                  name="entry.1285101246"
+                  placeholder="Message"
+                  required
+                  id="form-message"
+                ></textarea>
+                <div class="shopping-row-wrapper">
+                  <div class="shopping-row shopping-row-header">
+                    <div>Image</div>
+                    <div>Collection</div>
+                    <div>Design</div>
+                    <div>Color Code</div>
+                    <div>Quantity</div>
+                  </div>
                 </div>
-
-                <i class="fa fa-times"></i>
+                <button
+                  type="submit"
+                  class="button button-dark"
+                  id="form-submit"
+                >
+                  Submit Form
+                </button>
+              </form>
             </div>
+          </div>
+
+          <i class="fa fa-times"></i>
         </div>
+      </div>
     </main>
 
     <div class="whatsapp">
-        <a href="https://wa.me/+96891245348"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://wa.me/+96891245348"><i class="fab fa-whatsapp"></i></a>
     </div>
     <!-- scripts -->
     <!-- <script src="resources/scripts/language-index.js"></script> -->
@@ -271,6 +339,5 @@
     <script src="resources/scripts/burger-menu.js"></script>
     <script src="resources/scripts/language-index-2.js"></script>
     <script src="resources/scripts/cart.js"></script>
-</body>
-
+  </body>
 </html>
