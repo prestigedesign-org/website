@@ -7,7 +7,7 @@
 
 body {
   width: 100%;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: "Times New Roman", Times, serif; }
 
 .body .secound-lang {
   direction: rtl;
@@ -40,15 +40,23 @@ li {
 .website-language-english {
   direction: ltr;
   text-align: left;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: "Times New Roman", Times, serif; }
   .website-language-english input,
   .website-language-english textarea,
   .website-language-english button a,
   .website-language-english button {
-    font-family: 'Times New Roman', Times, serif; }
+    font-family: "Times New Roman", Times, serif; }
 
 img {
   transition: transform ease-in-out 0.3s; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type="number"] {
+  -moz-appearance: textfield; }
 
 @font-face {
   font-family: yekan-bold;
@@ -475,7 +483,7 @@ img {
   position: fixed;
   top: 30px;
   right: 30px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: #fff;
   padding: 25px 35px;
   border-radius: 5px;
@@ -531,7 +539,7 @@ img {
           width: 100%;
           min-height: 40px;
           display: grid;
-          grid-template-columns: repeat(5, 1fr);
+          grid-template-columns: repeat(3, 1fr);
           align-items: center;
           padding: 10px 5px;
           text-align: center; }
@@ -586,7 +594,7 @@ img {
         width: 100%;
         min-height: 30px;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
         padding: 10px 4px;
         margin-bottom: 20px;
@@ -883,6 +891,133 @@ img {
             object-fit: cover;
             object-position: center;
             margin: 10px; }
+  .main-collection .container .collections .decorative-collection-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 20px; }
+    .main-collection .container .collections .decorative-collection-content .decorative-card {
+      min-height: 250px;
+      min-width: 100%;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      overflow: hidden; }
+      .main-collection .container .collections .decorative-collection-content .decorative-card img {
+        display: block;
+        width: 100%;
+        max-height: 250px;
+        min-height: 250px;
+        object-position: center;
+        object-fit: cover; }
+      .main-collection .container .collections .decorative-collection-content .decorative-card .decorative-title {
+        display: flex;
+        padding: 15px;
+        padding-bottom: 0;
+        justify-content: space-between;
+        align-items: center; }
+      .main-collection .container .collections .decorative-collection-content .decorative-card p {
+        padding: 15px;
+        max-height: 70px;
+        overflow: hidden; }
+      .main-collection .container .collections .decorative-collection-content .decorative-card .decorative-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        color: #4a707a; }
+        .main-collection .container .collections .decorative-collection-content .decorative-card .decorative-info .decorative-buy {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          background: #ddddda;
+          color: #4a707a;
+          border-radius: 10px;
+          margin: 10px;
+          cursor: pointer;
+          padding: 5px 10px;
+          transition: 0.5s; }
+          .main-collection .container .collections .decorative-collection-content .decorative-card .decorative-info .decorative-buy span, .main-collection .container .collections .decorative-collection-content .decorative-card .decorative-info .decorative-buy i {
+            pointer-events: none; }
+          .main-collection .container .collections .decorative-collection-content .decorative-card .decorative-info .decorative-buy i {
+            color: inherit;
+            margin: 5px; }
+          .main-collection .container .collections .decorative-collection-content .decorative-card .decorative-info .decorative-buy:hover {
+            background: #4a707a;
+            color: #ddddda; }
+  .main-collection .container .collections .poster-collection-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 20px; }
+    .main-collection .container .collections .poster-collection-content .poster-card {
+      min-height: 250px;
+      min-width: 100%;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      overflow: hidden; }
+      .main-collection .container .collections .poster-collection-content .poster-card img {
+        display: block;
+        width: 100%;
+        max-height: 250px;
+        min-height: 250px;
+        object-position: center;
+        object-fit: cover; }
+      .main-collection .container .collections .poster-collection-content .poster-card .poster-title {
+        display: flex;
+        padding: 15px;
+        padding-bottom: 0;
+        justify-content: space-between;
+        align-items: center; }
+      .main-collection .container .collections .poster-collection-content .poster-card p {
+        padding: 15px;
+        max-height: 70px;
+        overflow: hidden; }
+      .main-collection .container .collections .poster-collection-content .poster-card .poster-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        color: #4a707a;
+        width: 100%; }
+        .main-collection .container .collections .poster-collection-content .poster-card .poster-info .poster-input {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 10px;
+          align-items: center;
+          width: 100%; }
+          .main-collection .container .collections .poster-collection-content .poster-card .poster-info .poster-input input {
+            width: 100%;
+            padding: 10px 10px;
+            margin: 5px;
+            outline: none;
+            border-radius: 10px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; }
+        .main-collection .container .collections .poster-collection-content .poster-card .poster-info .poster-buy {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          background: #ddddda;
+          color: #4a707a;
+          border-radius: 10px;
+          margin: 10px;
+          cursor: pointer;
+          padding: 5px 10px;
+          transition: 0.5s; }
+          .main-collection .container .collections .poster-collection-content .poster-card .poster-info .poster-buy span, .main-collection .container .collections .poster-collection-content .poster-card .poster-info .poster-buy i {
+            pointer-events: none; }
+          .main-collection .container .collections .poster-collection-content .poster-card .poster-info .poster-buy i {
+            color: inherit;
+            margin: 5px; }
+          .main-collection .container .collections .poster-collection-content .poster-card .poster-info .poster-buy:hover {
+            background: #4a707a;
+            color: #ddddda; }
 
 .header {
   width: 100%;
@@ -2462,7 +2597,11 @@ img {
           align-items: center;
           flex-direction: column;
           margin-right: 0px;
-          min-width: unset; } }
+          min-width: unset; }
+  .main-collection .container .collections .decorative-collection-content {
+    grid-template-columns: repeat(2, 1fr); }
+  .main-collection .container .collections .poster-collection-content {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 768px) {
   .header .nav .container .nav-contents .nav-menu {
@@ -2704,4 +2843,8 @@ img {
         height: 120px;
         margin-bottom: 0px;
         margin-right: 10px;
-        min-width: 120px; } }
+        min-width: 120px; }
+  .main-collection .container .collections .decorative-collection-content {
+    grid-template-columns: repeat(1, 1fr); }
+  .main-collection .container .collections .poster-collection-content {
+    grid-template-columns: repeat(1, 1fr); } }
